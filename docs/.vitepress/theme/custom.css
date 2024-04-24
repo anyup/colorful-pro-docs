@@ -1,0 +1,13 @@
+.demo-preview .aside {
+  display: none !important;
+}
+
+.demo-preview .aside {
+  display: none !important;
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1700px) {
+  .demo-preview .content-container{
+    margin: 0 !important;
+  }
+}
