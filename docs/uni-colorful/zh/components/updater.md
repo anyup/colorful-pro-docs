@@ -68,7 +68,7 @@ export default {
 ### Props
 | 名称 | 说明 | 类型 | 默认值 | 可选值 |
 | :--: | :--: | :--: | :--: | :--: |
-| request | 更新接口请求配置 | Object | { header:  Object, url: String, params: Object, method: POST } | - |
+| request | 更新接口请求配置 | Object | `{ header:  Object, url: String, params: Object, method: POST }` | - |
 | auto | 是否自动检测更新 | Boolean | false | true |
 | is-force | 是否强制更新 | Boolean | false | true |
 | mask-closable | 是否允许点击遮罩层关闭弹窗 | Boolean | false | true |
@@ -79,7 +79,7 @@ export default {
 ### Events
 | 名称 | 说明 | 回调 |
 | :--: | :--: | :--: |
-| result | 请求完成回调 |   { data, ref } |
+| result | 请求完成回调 |   `{ data, ref }` |
 
 ### Methods
 | 名称 | 说明 | 参数 |
