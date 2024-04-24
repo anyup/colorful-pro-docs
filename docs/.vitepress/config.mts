@@ -10,27 +10,28 @@ export default defineConfig({
     logo: "https://www.anyup.cn/static/anyup/images/logo1.png",
     nav: [
       { text: "首页", link: "/" },
-      {
-        text: "uni-app相关库",
-        items: [
-          {
-            text: "uni-colorful",
-            link: "/uni-colorful/zh/guide/introduce.html",
-          },
-          { text: "uni-http", link: "/uni-colorful/zh/guide/introduce.html" },
-        ],
-      },
-      {
-        text: "Vue相关库",
-        items: [{ text: "vue-libs", link: "" }],
-      },
+      { text: "uni-app工具库", link: "/uni-colorful/zh/guide/introduce.html" },
+
+      // {
+      //   text: "uni-app相关库",
+      //   items: [
+      //     {
+      //       text: "uni-colorful",
+      //       link: "/uni-colorful/zh/guide/introduce.html",
+      //     },
+      //     { text: "uni-http", link: "/uni-colorful/zh/guide/introduce.html" },
+      //   ],
+      // },
+      // {
+      //   text: "Vue相关库",
+      //   items: [{ text: "vue-libs", link: "" }],
+      // },
     ],
     aside: true,
     sidebar: {
       "/uni-colorful/": [
         {
-          text: "uni-app 开发库",
-          collapsed: false,
+          text: "uni-app 工具库",
           items: [
             {
               text: "指南",
