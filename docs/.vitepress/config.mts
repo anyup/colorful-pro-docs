@@ -10,18 +10,17 @@ export default defineConfig({
     logo: "https://www.anyup.cn/static/anyup/images/logo1.png",
     nav: [
       { text: "首页", link: "/" },
-      { text: "uni-app工具库", link: "/uni-colorful/zh/guide/introduce.html" },
-
-      // {
-      //   text: "uni-app相关库",
-      //   items: [
-      //     {
-      //       text: "uni-colorful",
-      //       link: "/uni-colorful/zh/guide/introduce.html",
-      //     },
-      //     { text: "uni-http", link: "/uni-colorful/zh/guide/introduce.html" },
-      //   ],
-      // },
+      // { text: "uni-app工具库", link: "/uni-colorful/zh/guide/introduce.html" },
+      {
+        text: "uni-app相关库",
+        items: [
+          {
+            text: "uni-colorful",
+            link: "/uni-colorful/zh/guide/introduce.html",
+          },
+          { text: "uni-http", link: "/uni-http/zh/guide/introduce.html" },
+        ],
+      },
       // {
       //   text: "Vue相关库",
       //   items: [{ text: "vue-libs", link: "" }],
@@ -144,7 +143,29 @@ export default defineConfig({
       "/uni-http/": [
         {
           text: "uni-http 请求库",
-          items: [],
+          items: [
+            {
+              text: "指南",
+              collapsed: false,
+              items: [
+                { text: "介绍", link: "/uni-http/zh/guide/introduce.html" },
+                { text: "实现思路", link: "/uni-http/zh/guide/implement.html" },
+                { text: "安装", link: "/uni-http/zh/guide/install.html" },
+                {
+                  text: "快速上手",
+                  link: "/uni-http/zh/guide/quickstart.html",
+                },
+                {
+                  text: "注意事项",
+                  link: "/uni-http/zh/guide/feature.html",
+                },
+                {
+                  text: "更新日志",
+                  link: "/uni-http/zh/guide/changelog.html",
+                },
+              ],
+            },
+          ],
         },
       ],
     },
