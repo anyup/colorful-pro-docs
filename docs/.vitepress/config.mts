@@ -3,11 +3,29 @@ import { defineConfig } from "vitepress";
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "高效的前端工具库",
-  description:
-    "anyup design 是以解决方案为驱动，包含项目的最佳实践，最佳的组件实现和便捷的工具类封装",
+  description: "anyup design 是以解决方案为驱动，包含项目的最佳实践，最佳的组件实现和便捷的工具类封装",
+  base: '/dist/',
   head: [
-    ['meta', { name: 'referrer', content: 'no-referrer' }]
-  ],
+    ["link", { rel: "icon", href: "https://www.anyup.cn/static/anyup/images/logo.png" }],
+    ['meta', { name: 'referrer', content: 'no-referrer' }],
+    ["meta", { name: "keywords", content: "anyupdocs,anyupdeisgn,vuepress,vuepress-theme,theme,anyup,docs,anyupui,anyup-uniui,uniui,anyup docs of vuepress,uni-app前端工具库,主题,vuepress主题,anyup设计,blog,vuepress-blog" }],
+    // 百度站长验证
+    ["meta", { name: "baidu-site-verification", content: "code-KOgnjImY1m" }],
+    // 添加百度统计
+    [
+        "script",
+        {},
+        `
+        var _hmt = _hmt || [];
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?b3d2cace082e577b291d93de68e86eaa";
+            var s = document.getElementsByTagName("script")[0]; 
+            s.parentNode.insertBefore(hm, s);
+        })();
+        `
+    ]
+],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: "https://www.anyup.cn/static/anyup/images/logo1.png",
