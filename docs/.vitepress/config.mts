@@ -5,6 +5,9 @@ export default defineConfig({
   title: "高效的前端工具库",
   description:
     "anyup design 是以解决方案为驱动，包含项目的最佳实践，最佳的组件实现和便捷的工具类封装",
+  head: [
+    ['meta', { name: 'referrer', content: 'no-referrer' }]
+  ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: "https://www.anyup.cn/static/anyup/images/logo1.png",
