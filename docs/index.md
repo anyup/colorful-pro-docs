@@ -10,7 +10,7 @@ hero:
   actions:
     - theme: brand
       text: 立即体验
-      link: /uni-colorful/zh/guide/introduce
+      link: /uniui/zh/guide/introduce
   image:
     src: /images/vitepress-logo-large.webp
     alt: VitePress

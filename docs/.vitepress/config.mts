@@ -12,13 +12,13 @@ export default defineConfig({
       { text: "首页", link: "/" },
       // { text: "uni-app工具库", link: "/uni-colorful/zh/guide/introduce.html" },
       {
-        text: "uni-app相关库",
+        text: "uni-app 相关库",
         items: [
           {
-            text: "uni-colorful",
-            link: "/uni-colorful/zh/guide/introduce.html",
+            text: "uniui 工具库",
+            link: "/uniui/zh/guide/introduce.html",
           },
-          { text: "uni-http", link: "/uni-http/zh/guide/introduce.html" },
+          { text: "uni-http 请求库", link: "/uni-http/zh/guide/introduce.html" },
         ],
       },
       // {
@@ -27,7 +27,146 @@ export default defineConfig({
       // },
     ],
     aside: true,
+    docFooter: {
+      prev: '上一页',
+      next: '下一页'
+    },
+
+    // footer: {
+    //   message: '基于 MIT 许可发布',
+    //   copyright: `版权所有 © 2019-${new Date().getFullYear()} anyup`
+    // },
+
+    outline: {
+      label: '页面导航'
+    },
+
+    lastUpdated: {
+      text: '最后更新于',
+      formatOptions: {
+        dateStyle: 'short',
+        timeStyle: 'medium'
+      }
+    },
+
+    langMenuLabel: '多语言',
+    returnToTopLabel: '回到顶部',
+    sidebarMenuLabel: '菜单',
+    darkModeSwitchLabel: '主题',
+    lightModeSwitchTitle: '切换到浅色模式',
+    darkModeSwitchTitle: '切换到深色模式',
     sidebar: {
+      "/uniui/": [
+        {
+          text: "uni-app 工具库",
+          items: [
+            {
+              text: "指南",
+              collapsed: false,
+              items: [
+                { text: "介绍", link: "/uniui/zh/guide/introduce.html" },
+                { text: "安装", link: "/uniui/zh/guide/install.html" },
+                {
+                  text: "快速上手",
+                  link: "/uniui/zh/guide/quickstart.html",
+                },
+                {
+                  text: "目录结构",
+                  link: "/uniui/zh/guide/directory.html",
+                },
+                {
+                  text: "开发工具",
+                  link: "/uniui/zh/guide/devtools.html",
+                },
+                {
+                  text: "注意事项",
+                  link: "/uniui/zh/guide/feature.html",
+                },
+                {
+                  text: "更新日志",
+                  link: "/uniui/zh/guide/changelog.html",
+                },
+              ],
+            },
+            {
+              text: "组件",
+              collapsed: false,
+              items: [
+                {
+                  text: "Layout - 布局",
+                  link: "/uniui/zh/components/layout.html",
+                },
+                {
+                  text: "Button - 按钮",
+                  link: "/uniui/zh/components/button.html",
+                },
+                {
+                  text: "Loader - 加载图标",
+                  link: "/uniui/zh/components/loader.html",
+                },
+                {
+                  text: "Loading - 加载框",
+                  link: "/uniui/zh/components/loading.html",
+                },
+                {
+                  text: "Table - 表格",
+                  link: "/uniui/zh/components/table.html",
+                },
+                {
+                  text: "Toast - 提示",
+                  link: "/uniui/zh/components/toast.html",
+                },
+                {
+                  text: "WebView - 网页视图",
+                  link: "/uniui/zh/components/webview.html",
+                },
+                {
+                  text: "Updater - 应用更新管理",
+                  link: "/uniui/zh/components/updater.html",
+                },
+                {
+                  text: "Apis - 服务器选择",
+                  link: "/uniui/zh/components/apis.html",
+                },
+              ],
+            },
+            {
+              text: "工具",
+              collapsed: false,
+              items: [
+                {
+                  text: "Checker - 表单校验",
+                  link: "/uniui/zh/js/checker.html",
+                },
+                {
+                  text: "Http - 网络请求",
+                  link: "/uniui/zh/js/http.html",
+                },
+                {
+                  text: "Optimize - 优化类",
+                  link: "/uniui/zh/js/optimize.html",
+                },
+                {
+                  text: "Pager - 分页",
+                  link: "/uniui/zh/js/pager.html",
+                },
+                { text: "Push - 推送", link: "/uniui/zh/js/push.html" },
+                {
+                  text: "Plus - 真机类",
+                  link: "/uniui/zh/js/plus.html",
+                },
+                {
+                  text: "Store - 状态管理",
+                  link: "/uniui/zh/js/store.html",
+                },
+                { text: "Tips - 提示", link: "/uniui/zh/js/tips.html" },
+              ],
+            },
+            { text: "gitee", link: "https://gitee.com/anyup/uniui" },
+            { text: "github", link: "https://github.com/anyup/uniui" },
+          ],
+        },
+      ],
       "/uni-colorful/": [
         {
           text: "uni-app 工具库",
