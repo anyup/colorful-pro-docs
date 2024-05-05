@@ -52,7 +52,10 @@ export default defineConfig({
       prev: '上一页',
       next: '下一页'
     },
-
+    // editLink: {
+    //   pattern: 'https://github.com/vuejs/vitepress/edit/main/docs/:path',
+    //   text: '在 GitHub 上编辑此页面'
+    // },
     // footer: {
     //   message: '基于 MIT 许可发布',
     //   copyright: `版权所有 © 2019-${new Date().getFullYear()} anyup`
