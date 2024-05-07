@@ -45,7 +45,7 @@ export default {
   font-size: 16px;
 }
 .article-link-info a {
-  color: #4e6e8e;
+  color: #3451b2;
   font-weight: 500;
   padding-left: 5px;
 }

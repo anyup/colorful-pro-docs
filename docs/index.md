@@ -5,12 +5,15 @@ layout: home
 hero:
   name: "anyup design"
   text: ""
-  tagline: 崇尚大道至简的前端工具库
+  tagline: 崇尚大道至简的前端知识库
   # image: https://www.anyup.cn/static/anyup/images/logo2.png
   actions:
     - theme: brand
       text: 立即体验
       link: /uniui/zh/guide/introduce
+    - theme: alt
+      text: 我的博客
+      link: /blog/zh/echarts/ECharts十万级+数据渲染性能优化方案
   image:
     src: /images/vitepress-logo-large.webp
     alt: VitePress
