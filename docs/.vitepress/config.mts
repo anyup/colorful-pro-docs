@@ -194,7 +194,7 @@ export default defineConfig({
       ],
       '/blog/': [
         {
-          text: '博客简介',
+          text: '简介',
           link: '/blog/zh/index.html',
           items: [
             {

@@ -4,6 +4,16 @@
   <div class="demo-scan-row">
     <div class="demo-scan-col">
       <div class="demo-scan-item">
+        <img src="https://www.anyup.cn/static/anyup/images/qr_wx_public.jpg" />
+        <div class="demo-scan-name">
+          微信公众号
+          <p class="demo-scan-tips">微信扫码</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="demo-scan-col">
+      <div class="demo-scan-item">
         <img src="https://www.anyup.cn/static/anyup/images/qr_wx.png" />
         <div class="demo-scan-name">
           微信小程序
@@ -55,7 +65,7 @@
 }
 
 .demo-scan-col {
-  width: 33.33%;
+  width: 25%;
   float: left;
 }
 
@@ -66,7 +76,7 @@
   transition: bottom 0.4s;
   position: relative;
   bottom: 0;
-  margin: 20px;
+  margin: 20px 10px;
   padding: 40px 0;
   min-height: 210px;
 }
