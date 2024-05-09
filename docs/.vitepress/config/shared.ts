@@ -72,15 +72,39 @@ export const shared = defineConfig({
     ],
 
     search: {
-      provider: 'algolia',
+      provider: 'local',
       options: {
-        appId: '8J64VVRP8K',
-        apiKey: 'a18e2f4cc5665f6602c5631fd868adfd',
-        indexName: 'vitepress',
-        locales: { ...zhSearch }
+        locales: {
+          zh: {
+            translations: {
+              button: {
+                buttonText: '搜索文档',
+                buttonAriaLabel: '搜索文档'
+              },
+              modal: {
+                noResultsText: '无法找到相关结果',
+                resetButtonTitle: '清除查询条件',
+                footer: {
+                  selectText: '选择',
+                  navigateText: '切换'
+                }
+              }
+            }
+          }
+        }
       }
-    },
+    }
 
-    carbonAds: { code: 'CEBDT27Y', placement: 'vuejsorg' }
+    // search: {
+    //   provider: 'algolia',
+    //   options: {
+    //     appId: '8J64VVRP8K',
+    //     apiKey: 'a18e2f4cc5665f6602c5631fd868adfd',
+    //     indexName: 'vitepress',
+    //     locales: { ...zhSearch }
+    //   }
+    // },
+
+    // carbonAds: { code: 'CEBDT27Y', placement: 'vuejsorg' }
   }
 })
