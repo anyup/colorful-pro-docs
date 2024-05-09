@@ -62,13 +62,13 @@ function nav(): DefaultTheme.NavItem[] {
     {
       text: 'uni-app 相关库',
       items: [
-        { text: 'uniui 工具库', link: '/zh/uniui/guide/', activeMatch: '/zh/uniui/' },
-        { text: 'uni-http 请求库', link: '/zh/uni-http/guide/', activeMatch: '/zh/uni-http/' }
+        { text: 'uniui 工具库', link: '/zh/uniui/guide/introduce', activeMatch: '/zh/uniui/' },
+        { text: 'uni-http 请求库', link: '/zh/uni-http/guide/introduce', activeMatch: '/zh/uni-http/' }
       ]
     }
   ]
 }
-
+// 博客菜单
 function sidebarBlog(): DefaultTheme.SidebarItem[] {
   return [
     {
@@ -88,6 +88,7 @@ function sidebarBlog(): DefaultTheme.SidebarItem[] {
   ]
 }
 
+// uni-http 文档
 function sidebarUniHttp(): DefaultTheme.SidebarItem[] {
   return [
     {
@@ -110,6 +111,7 @@ function sidebarUniHttp(): DefaultTheme.SidebarItem[] {
   ]
 }
 
+// uniui 文档
 function sidebarUniUI(): DefaultTheme.SidebarItem[] {
   return [
     {
@@ -164,6 +166,7 @@ function sidebarUniUI(): DefaultTheme.SidebarItem[] {
   ]
 }
 
+// uni-colorful 文档
 function sidebarUniColorful(): DefaultTheme.SidebarItem[] {
   return [
     {
