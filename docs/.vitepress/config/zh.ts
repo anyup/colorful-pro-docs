@@ -19,10 +19,10 @@ export const zh = defineConfig({
       '/zh/uni-colorful/': { base: '/zh/uni-colorful/', items: sidebarUniColorful() }
     },
 
-    editLink: {
-      pattern: 'https://github.com/vuejs/vitepress/edit/main/docs/:path',
-      text: '在 GitHub 上编辑此页面'
-    },
+    // editLink: {
+    //   pattern: 'https://github.com/vuejs/vitepress/edit/main/docs/:path',
+    //   text: '在 GitHub 上编辑此页面'
+    // },
 
     footer: {
       message: '备案许可：<a style="color:#4e6e8e;" rel="noopener noreferrer" target="_blank" href="https://beian.miit.gov.cn/">鲁ICP备2021040594号-1</a>',

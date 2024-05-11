@@ -57,4 +57,6 @@ features:
 
 <DemoScan />
 
+<SitePV />
+
 <!-- <FooterInfo /> -->

@@ -40,6 +40,7 @@ export const shared = defineConfig({
     ['meta', { property: 'og:image', content: 'https://vitepress.dev/vitepress-og.jpg' }],
     ['meta', { property: 'og:url', content: 'https://www.anyup.cn' }],
     ['script', { src: 'https://cdn.usefathom.com/script.js', 'data-site': 'AZBRSFGG', 'data-spa': 'auto', defer: '' }],
+    ['script', { src: '//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js' }],
     // 百度站长验证
     ['meta', { name: 'baidu-site-verification', content: 'code-KOgnjImY1m' }],
     // 添加百度统计

@@ -9,6 +9,7 @@ import DemoPreview from '../components/DemoPreview.vue'
 import FooterInfo from '../components/FooterInfo.vue'
 import ArticleFooter from '../components/ArticleFooter.vue'
 import CustomIcon from '../components/CustomIcon.vue'
+import SitePV from '../components/SitePV.vue'
 
 /** @type {import('vitepress').Theme} */
 export default {
@@ -19,6 +20,7 @@ export default {
 			app.component('DemoPreview', DemoPreview),
 			app.component('FooterInfo', FooterInfo),
 			app.component('ArticleFooter', ArticleFooter),
-			app.component('CustomIcon', CustomIcon)
+			app.component('CustomIcon', CustomIcon),
+			app.component('SitePV', SitePV)
 	}
 }
