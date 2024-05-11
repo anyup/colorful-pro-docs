@@ -10,7 +10,7 @@
       🏆 公众号｜ 前端梦工厂<br />
     </div>
     <div class="article-link-info">
-      <custom-icon name="yuanwenlianjie1" size="20px" color="#4e6e8e"></custom-icon>
+      <CustomIcon name="yuanwenlianjie1" size="20px" color="#4e6e8e" />
       <a :href="link" target="_blank" rel="noopener noreferrer">
         {{ linkName }}
       </a>
@@ -18,23 +18,21 @@
   </div>
 </template>
 
-<script>
-export default {
-  props: {
-    name: {
-      type: String,
-      default: '关于我'
-    },
-    link: {
-      type: String,
-      default: ''
-    },
-    linkName: {
-      type: String,
-      default: '原文链接'
-    }
+<script setup lang="ts">
+const props = defineProps({
+  name: {
+    type: String,
+    default: '关于我'
+  },
+  link: {
+    type: String,
+    default: ''
+  },
+  linkName: {
+    type: String,
+    default: '原文链接'
   }
-}
+})
 </script>
 
 <style scoped>

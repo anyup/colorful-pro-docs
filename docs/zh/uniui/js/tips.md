@@ -3,7 +3,7 @@ title: Tips - 提示
 pageClass: demo-preview
 ---
 
-<demo-preview url="pages/js/tips"/>
+<DemoPreview url="pages/js/tips"/>
 
 # Tips - 提示
 ## 简介

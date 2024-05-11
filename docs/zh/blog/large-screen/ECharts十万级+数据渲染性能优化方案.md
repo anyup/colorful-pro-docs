@@ -197,4 +197,4 @@ var option = {
 
 > 如果您感觉文章还不错，点个赞再走吧！
 
-<article-footer link="https://juejin.cn/post/7350152569756680227" />
+<ArticleFooter link="https://juejin.cn/post/7350152569756680227" />

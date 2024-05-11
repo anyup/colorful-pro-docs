@@ -80,7 +80,8 @@ function sidebarBlog(): DefaultTheme.SidebarItem[] {
           collapsed: false,
           items: [
             { text: 'ECharts十万级+数据渲染性能优化方案', link: 'large-screen/ECharts十万级+数据渲染性能优化方案' },
-            { text: 'ECharts地图实战分析：实现一个完整的地图下钻功能', link: 'large-screen/ECharts地图实战分析：实现一个完整的地图下钻功能' }
+            { text: 'ECharts地图实战分析：实现一个完整的地图下钻功能', link: 'large-screen/ECharts地图实战分析：实现一个完整的地图下钻功能' },
+            { text: '产品需求：ECharts鼠标自由刷选区域，定向放大图表', link: 'large-screen/产品需求：ECharts鼠标自由刷选区域，定向放大图表' }
           ]
         }
       ]

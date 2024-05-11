@@ -10,7 +10,7 @@ hero:
   actions:
     - theme: brand
       text: 立即体验
-      link: /zh/uniui/
+      link: /zh/uniui/guide/introduce
     - theme: alt
       text: 我的博客
       link: /zh/blog/
@@ -55,6 +55,6 @@ features:
 }
 </style>
 
-<demo-scan />
+<DemoScan />
 
-<!-- <footer-info /> -->
+<!-- <FooterInfo /> -->

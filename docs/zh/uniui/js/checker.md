@@ -3,7 +3,7 @@ title: Checker - 表单校验
 pageClass: demo-preview
 ---
 
-<demo-preview url="pages/js/checker"/>
+<DemoPreview url="pages/js/checker"/>
 
 # Checker - 表单校验
 

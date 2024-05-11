@@ -3,7 +3,7 @@ title: Loader - 加载图标
 pageClass: demo-preview
 ---
 
-<demo-preview url="pages/components/loader"/>
+<DemoPreview url="pages/components/loader"/>
 
 # Loader - 加载图标
 

@@ -3,7 +3,7 @@ title: Optimize - 优化类
 pageClass: demo-preview
 ---
 
-<demo-preview url="pages/js/optimize"/>
+<DemoPreview url="pages/js/optimize"/>
 
 # Optimize - 优化类
 

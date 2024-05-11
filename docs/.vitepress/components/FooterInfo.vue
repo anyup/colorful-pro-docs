@@ -10,10 +10,6 @@
   </div>
 </template>
 
-<script>
-export default {};
-</script>
-
 <style scoped>
 .footer-info {
   padding: 2.5rem;

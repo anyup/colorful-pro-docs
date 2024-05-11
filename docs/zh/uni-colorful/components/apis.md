@@ -3,7 +3,7 @@ title: Apis - 服务器选择
 pageClass: demo-preview
 ---
 
-<demo-preview url="pages/components/apis"/>
+<DemoPreview url="pages/components/apis"/>
 
 # Apis - 服务器选择
 

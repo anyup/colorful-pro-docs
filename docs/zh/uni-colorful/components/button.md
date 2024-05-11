@@ -3,7 +3,7 @@ title: Button - 按钮
 pageClass: demo-preview
 ---
 
-<demo-preview url="pages/components/button"/>
+<DemoPreview url="pages/components/button"/>
 
 # Button - 按钮
 

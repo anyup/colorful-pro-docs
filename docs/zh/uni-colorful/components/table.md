@@ -3,7 +3,7 @@ title:  Table - 表格
 pageClass: demo-preview
 ---
 
-<demo-preview url="pages/components/table"/>
+<DemoPreview url="pages/components/table"/>
 
 # Table - 表格
 

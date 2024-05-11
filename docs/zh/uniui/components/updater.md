@@ -3,7 +3,7 @@ title:  Updater - 应用更新管理
 pageClass: demo-preview
 ---
 
-<demo-preview url="pages/components/updater"/>
+<DemoPreview url="pages/components/updater"/>
 
 # Updater - 应用更新管理
 

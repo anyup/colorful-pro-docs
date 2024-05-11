@@ -3,7 +3,7 @@ title:  Webview - 网页视图
 pageClass: demo-preview
 ---
 
-<demo-preview url="pages/components/webview"/>
+<DemoPreview url="pages/components/webview"/>
 
 # Webview - 网页视图
 

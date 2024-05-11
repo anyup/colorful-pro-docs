@@ -55,6 +55,6 @@ features:
 }
 </style>
 
-<demo-scan />
+<DemoScan />
 
-<!-- <footer-info /> -->
+<!-- <FooterInfo /> -->

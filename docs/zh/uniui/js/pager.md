@@ -3,7 +3,7 @@ title: Pager - 分页
 pageClass: demo-preview
 ---
 
-<demo-preview url="pages/js/pager"/>
+<DemoPreview url="pages/js/pager"/>
 
 # Pager - 分页
 

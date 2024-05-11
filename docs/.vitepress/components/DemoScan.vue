@@ -1,5 +1,3 @@
-<script setup lang="ts"></script>
-
 <template>
   <div class="demo-scan-row">
     <div class="demo-scan-col">

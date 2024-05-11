@@ -6,27 +6,24 @@
   </div>
 </template>
 
-<script>
-export default {
-  props: {
-    url: {
-      type: String,
-      default: "",
-    },
-    baseUrl: {
-      type: String,
-      default: "https://www.anyup.cn/h5/#/",
-    },
+<script setup lang="ts">
+const props = defineProps({
+  url: {
+    type: String,
+    default: ''
   },
-  computed: {
-    currentTime() {
-      const d = new Date();
-      const h = d.getHours();
-      const m = d.getMinutes() < 10 ? `0${d.getMinutes()}` : d.getMinutes();
-      return `${h}:${m}`;
-    },
-  },
-};
+  baseUrl: {
+    type: String,
+    default: 'https://www.anyup.cn/h5/#/'
+  }
+})
+
+const currentTime = () => {
+  const d = new Date()
+  const h = d.getHours()
+  const m = d.getMinutes() < 10 ? `0${d.getMinutes()}` : d.getMinutes()
+  return `${h}:${m}`
+}
 </script>
 
 <style scoped>

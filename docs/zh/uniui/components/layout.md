@@ -3,7 +3,7 @@ title: Layout - 布局
 pageClass: demo-preview
 ---
 
-<demo-preview url="pages/components/layout"/>
+<DemoPreview url="pages/components/layout"/>
 
 # Layout - 布局
 

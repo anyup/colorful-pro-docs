@@ -12,18 +12,18 @@ title: 简介
 
 🏷️ 技术 | <Badge type="tip" text="Vue.js" /> <Badge type="tip" text="Angular.js" /> <Badge type="tip" text="JavaScript" /> <Badge type="tip" text="uni-app" />
 
-<custom-icon name="weixin" size="20px" color="#00b066" /> 微信 |  anyupxing
+<CustomIcon name="weixin" size="20px" color="#00b066" /> 微信 |  anyupxing
 
 
 ## 关于社区
 
-<p><custom-icon name="juejin" size="19px" color="#0077f7" />  掘金 |  <a href="https://juejin.cn/user/4230576472589976/posts" target="_blank">点击链接直达掘金 >>></a></p>
+<p><CustomIcon name="juejin" size="19px" color="#0077f7" />  掘金 |  <a href="https://juejin.cn/user/4230576472589976/posts" target="_blank">点击链接直达掘金 >>></a></p>
 
-<p><custom-icon name="csdn" size="20px" color="#ff4b30" /> CSDN |  <a href="https://blog.csdn.net/qq_24956515" target="_blank">点击链接直达CSDN >>></a></p>
+<p><CustomIcon name="csdn" size="20px" color="#ff4b30" /> CSDN |  <a href="https://blog.csdn.net/qq_24956515" target="_blank">点击链接直达CSDN >>></a></p>
 
-<p><custom-icon name="yuque" size="20px" color="#00b066" /> 语雀 |  <a href="https://www.yuque.com/anyup" target="_blank">点击链接直达语雀 >>></a></p>
+<p><CustomIcon name="yuque" size="20px" color="#00b066" /> 语雀 |  <a href="https://www.yuque.com/anyup" target="_blank">点击链接直达语雀 >>></a></p>
 
-<p><custom-icon name="weixingongzhonghao" size="22px" color="#00b066" /> 微信公众号｜ 前端梦工厂 </p>
+<p><CustomIcon name="weixingongzhonghao" size="22px" color="#00b066" /> 微信公众号｜ 前端梦工厂 </p>
 
 ![image.png](https://cdn.nlark.com/yuque/0/2024/png/756043/1711511212734-584243f5-cdef-4f0d-8758-392b2b743b87.png?x-oss-process=image%2Fformat%2Cwebp)
 

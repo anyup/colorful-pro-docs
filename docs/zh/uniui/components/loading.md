@@ -3,7 +3,7 @@ title: Loading - 加载框
 pageClass: demo-preview
 ---
 
-<demo-preview url="pages/components/loading"/>
+<DemoPreview url="pages/components/loading"/>
 
 # Loading - 加载框
 

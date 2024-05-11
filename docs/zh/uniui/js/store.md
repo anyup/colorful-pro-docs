@@ -3,7 +3,7 @@ title: Store - 状态管理
 pageClass: demo-preview
 ---
 
-<demo-preview url="pages/js/store"/>
+<DemoPreview url="pages/js/store"/>
 
 # Store - 状态管理
 ## 简介

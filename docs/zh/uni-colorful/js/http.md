@@ -3,7 +3,7 @@ title: Http - 网络请求
 pageClass: demo-preview
 ---
 
-<demo-preview url="pages/js/http"/>
+<DemoPreview url="pages/js/http"/>
 
 # Http - 网络请求
 

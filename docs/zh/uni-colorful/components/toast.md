@@ -3,7 +3,7 @@ title: Toast - 提示框
 pageClass: demo-preview
 ---
 
-<demo-preview url="pages/components/toast"/>
+<DemoPreview url="pages/components/toast"/>
 
 
 # Toast - 提示框

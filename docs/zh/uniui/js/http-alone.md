@@ -4,7 +4,7 @@ pageClass: demo-preview
 sidebar: false
 ---
 
-<demo-preview url="pages/js/http"/>
+<DemoPreview url="pages/js/http"/>
 
 # Http - 网络请求
 

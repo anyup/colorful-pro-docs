@@ -33,13 +33,3 @@ anyup/uniui（以后简称uniui）是基于[uni-app](https://uniapp.dcloud.io/)�
 * [uView](https://www.uviewui.com/)
 
 别犹豫了，赶快上手吧
-
-<article-footer link="https://juejin.cn/post/7296317316206411787" />
-
-
-
-
-
-
-
-
