@@ -2,15 +2,14 @@
   <div v-if="link" class="article-footer-info">
     <h2>{{ name }}</h2>
     <div>
-      <br />
-      👨‍🎓 教育 | 计算机科学与技术 · 本科<br />
-      👨‍💻 工作 | 前端开发工程师<br />
-      🏷️ 技术 | Vue Angular JavaScript uni-app<br />
-      📱 微信 | anyupxing<br />
-      🏆 公众号｜ 前端梦工厂<br />
+      <p>👨‍🎓 教育 | 计算机科学与技术 · 本科</p>
+      <p>👨‍💻 工作 | 前端开发工程师</p>
+      <p>🏷️ 技术 | Vue Angular JavaScript uni-app</p>
+      <p>📱 微信 | anyupxing</p>
+      <p>🏆 公众号｜ 前端梦工厂</p>
     </div>
     <div class="article-link-info">
-      <CustomIcon name="yuanwenlianjie1" size="20px" color="#4e6e8e" />
+      <CustomIcon name="yuanwenlianjie1" size="30px" color="#4e6e8e" />
       <a :href="link" target="_blank" rel="noopener noreferrer">
         {{ linkName }}
       </a>
@@ -37,6 +36,8 @@ const props = defineProps({
 
 <style scoped>
 .article-link-info {
+  display: flex;
+  align-items: center;
   padding: 20px 0;
   /* border-top: 1px solid #eaecef; */
   text-align: left;
