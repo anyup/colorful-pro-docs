@@ -58,7 +58,11 @@ export const zh = defineConfig({
 function nav(): DefaultTheme.NavItem[] {
   return [
     { text: '首页', link: '/' },
-    { text: '博客园', link: '/zh/blog/', activeMatch: '/zh/blog/' },
+    {
+      text: '博客园',
+      activeMatch: '/zh/blog/',
+      items: [{ text: '可视化大屏', link: '/zh/blog/large-screen/', activeMatch: '/zh/blog/large-screen/' }]
+    },
     {
       text: 'uni-app 相关库',
       items: [
@@ -72,19 +76,15 @@ function nav(): DefaultTheme.NavItem[] {
 function sidebarBlog(): DefaultTheme.SidebarItem[] {
   return [
     {
-      text: '简介',
-      link: '/',
-      items: [
-        {
-          text: '可视化大屏',
-          collapsed: false,
-          items: [
-            { text: 'ECharts十万级+数据渲染性能优化方案', link: 'large-screen/ECharts十万级+数据渲染性能优化方案' },
-            { text: 'ECharts地图实战分析：实现一个完整的地图下钻功能', link: 'large-screen/ECharts地图实战分析：实现一个完整的地图下钻功能' },
-            { text: '产品需求：ECharts鼠标自由刷选区域，定向放大图表', link: 'large-screen/产品需求：ECharts鼠标自由刷选区域，定向放大图表' }
-          ]
-        }
-      ]
+      text: '可视化大屏',
+      collapsed: false,
+      items: addTextIndex([
+        { text: 'ECharts十万级+数据渲染性能优化方案', link: 'large-screen/ECharts十万级+数据渲染性能优化方案' },
+        { text: 'ECharts地图实战分析：实现一个完整的地图下钻功能', link: 'large-screen/ECharts地图实战分析：实现一个完整的地图下钻功能' },
+        { text: '产品需求：ECharts鼠标自由刷选区域，定向放大图表', link: 'large-screen/产品需求：ECharts鼠标自由刷选区域，定向放大图表' },
+        { text: '分享ECharts地图合规整改经验，并实现一个最基础的中国地图', link: 'large-screen/分享ECharts地图合规整改经验，并实现一个最基础的中国地图' },
+        { text: '分析ECharts图表渲染导致的内存泄漏问题-附解决方案', link: 'large-screen/分析ECharts图表渲染导致的内存泄漏问题-附解决方案' }
+      ])
     }
   ]
 }
@@ -264,4 +264,12 @@ export const search: DefaultTheme.AlgoliaSearchOptions['locales'] = {
       }
     }
   }
+}
+
+// 自动化，给text添加索引值
+function addTextIndex(items): DefaultTheme.SidebarItem[] {
+  return items.map((item, index) => {
+    item.text = `${index + 1}. ${item.text}`
+    return item
+  })
 }

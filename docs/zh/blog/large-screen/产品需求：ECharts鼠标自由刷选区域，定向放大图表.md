@@ -501,3 +501,5 @@ myChart.on("brushEnd", function (params) {
 ```
 
 > 如果您感觉文章还不错，点个赞再走吧！
+
+<ArticleFooter link="https://juejin.cn/post/7342861726001594419" />
