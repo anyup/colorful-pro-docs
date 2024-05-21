@@ -16,7 +16,8 @@ export const zh = defineConfig({
       '/zh/blog/': { base: '/zh/blog/', items: sidebarBlog() },
       '/zh/uniui/': { base: '/zh/uniui/', items: sidebarUniUI() },
       '/zh/uni-http/': { base: '/zh/uni-http/', items: sidebarUniHttp() },
-      '/zh/uni-colorful/': { base: '/zh/uni-colorful/', items: sidebarUniColorful() }
+      '/zh/uni-colorful/': { base: '/zh/uni-colorful/', items: sidebarUniColorful() },
+      '/zh/flyit/': { base: '/zh/flyit/', items: sidebarFlyit() }
     },
 
     // editLink: {
@@ -69,6 +70,10 @@ function nav(): DefaultTheme.NavItem[] {
         { text: 'uniui 工具库', link: '/zh/uniui/guide/introduce', activeMatch: '/zh/uniui/' },
         { text: 'uni-http 请求库', link: '/zh/uni-http/guide/introduce', activeMatch: '/zh/uni-http/' }
       ]
+    },
+    {
+      text: 'JS 相关库',
+      items: [{ text: 'flyit 工具库', link: '/zh/flyit/guide/introduce', activeMatch: '/zh/flyit/' }]
     }
   ]
 }
@@ -217,6 +222,27 @@ function sidebarUniColorful(): DefaultTheme.SidebarItem[] {
         },
         { text: 'gitee', link: 'https://gitee.com/anyup/uni-colorful' },
         { text: 'github', link: 'https://github.com/anyup/uni-colorful' }
+      ]
+    }
+  ]
+}
+
+// flyit 文档
+function sidebarFlyit(): DefaultTheme.SidebarItem[] {
+  return [
+    {
+      text: 'flyit 工具库',
+      items: [
+        {
+          text: '指南',
+          collapsed: false,
+          items: [
+            { text: '介绍', link: 'guide/introduce' },
+            { text: '安装', link: 'guide/install' },
+            { text: '快速上手', link: 'guide/quickstart' },
+            { text: '注意事项', link: 'guide/feature' }
+          ]
+        }
       ]
     }
   ]
