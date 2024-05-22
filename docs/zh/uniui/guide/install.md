@@ -10,11 +10,7 @@ title: 安装
 :::
 
 ## npm安装
+
 ```bash
-// 安装
 npm install @anyup/uniui
-
-// 更新
-npm update @anyup/uniui
-
 ```

@@ -10,8 +10,6 @@ title: 安装
 
 ```bash
 npm install @anyup/flyit -S
-
-npm update @anyup/flyit
 ```
 
 点击查看在 npm 上完整的 uni-http 请求库，欢迎大家使用：[npm 地址](https://www.npmjs.com/package/@anyup/uni-http)

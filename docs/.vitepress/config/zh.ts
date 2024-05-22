@@ -17,7 +17,7 @@ export const zh = defineConfig({
       '/zh/uniui/': { base: '/zh/uniui/', items: sidebarUniUI() },
       '/zh/uni-http/': { base: '/zh/uni-http/', items: sidebarUniHttp() },
       '/zh/uni-colorful/': { base: '/zh/uni-colorful/', items: sidebarUniColorful() },
-      '/zh/flyit/': { base: '/zh/flyit/', items: sidebarFlyit() }
+      // '/zh/flyit/': { base: '/zh/flyit/', items: sidebarFlyit() }
     },
 
     // editLink: {
@@ -71,10 +71,10 @@ function nav(): DefaultTheme.NavItem[] {
         { text: 'uni-http 请求库', link: '/zh/uni-http/guide/introduce', activeMatch: '/zh/uni-http/' }
       ]
     },
-    {
-      text: 'JS 相关库',
-      items: [{ text: 'flyit 工具库', link: '/zh/flyit/guide/introduce', activeMatch: '/zh/flyit/' }]
-    }
+    // {
+    //   text: 'JS 相关库',
+    //   items: [{ text: 'flyit 工具库', link: '/zh/flyit/guide/introduce', activeMatch: '/zh/flyit/' }]
+    // }
   ]
 }
 // 博客菜单
