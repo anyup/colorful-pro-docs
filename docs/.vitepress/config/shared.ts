@@ -3,7 +3,7 @@ import { search as zhSearch } from './zh'
 
 export const shared = defineConfig({
   title: '高效的前端知识库',
-  base: '/dist/',
+  base: '/site/',
   lastUpdated: true,
   cleanUrls: true,
   metaChunk: true,
