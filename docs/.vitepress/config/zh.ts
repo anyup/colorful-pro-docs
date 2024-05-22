@@ -17,7 +17,7 @@ export const zh = defineConfig({
       '/zh/uniui/': { base: '/zh/uniui/', items: sidebarUniUI() },
       '/zh/uni-http/': { base: '/zh/uni-http/', items: sidebarUniHttp() },
       '/zh/uni-colorful/': { base: '/zh/uni-colorful/', items: sidebarUniColorful() },
-      // '/zh/flyit/': { base: '/zh/flyit/', items: sidebarFlyit() }
+      '/zh/flyit/': { base: '/zh/flyit/', items: sidebarFlyit() }
     },
 
     // editLink: {

@@ -11,9 +11,9 @@ pageClass: demo-preview
 Tips为方法类，内部使用了基于 `vuex` 的状态管理，主要封装了`loading`、`toast`、`confirm`等常用方法。
 
 ::: warning
-- 如果项目中没有使用vuex，同时也没有使用本库封装的[Store](/uniui/zh/js/store.html)，则不要调用此类内部方法
+- 如果项目中没有使用vuex，同时也没有使用本库封装的[Store](./store)，则不要调用此类内部方法
 - 封装的tips提示工具类，已经挂载到全局`prototype`，可使用`this.$tips`或导入`Tips`对象使用
-- 使用au-layout作为父布局的已经默认导入`Loading`、`Toast`组件，直接使用方法即可，否则参照组件使用规则使用，详见[Loading](/uniui/zh/components/loading.html)、[Toast](/uniui/zh/components/toast.html) 组件介绍
+- 使用au-layout作为父布局的已经默认导入`Loading`、`Toast`组件，直接使用方法即可，否则参照组件使用规则使用，详见[Loading](../components/loading)、[Toast](../components/toast) 组件介绍
 - confirm方法为封装的`Promise`风格的uni.showModal(OBJECT)，详见官方文档，[showModal](https://uniapp.dcloud.io/api/ui/prompt?id=showmodal)
 :::
 
