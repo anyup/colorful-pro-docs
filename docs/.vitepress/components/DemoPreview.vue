@@ -1,7 +1,7 @@
 <template>
   <div class="demo-preview-wrap">
     <img src="/images/iphone.png" />
-    <span class="demo-time">{{ currentTime }}</span>
+    <span class="demo-time">{{ currentTime() }}</span>
     <iframe scrolling="auto" frameborder="0" :src="`${baseUrl}${url}`" />
   </div>
 </template>
