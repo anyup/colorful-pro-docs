@@ -223,7 +223,9 @@ class Menu<T> {
             ]
           }
         ]
-      }
+      },
+      { text: 'github', link: 'https://github.com/anyup/flyit' },
+      { text: 'gitee', link: 'https://gitee.com/anyup/flyit' }
     ]
   }
 }
