@@ -18,20 +18,25 @@ class Menu<T> {
     return [
       { text: '首页', link: '/' },
       {
-        text: '博客园',
-        activeMatch: `/${this.locale}/blog/`,
-        items: [{ text: '可视化大屏', link: `/${this.locale}/blog/large-screen/`, activeMatch: `/${this.locale}/blog/large-screen/` }]
+        text: 'JS 相关库',
+        activeMatch: `/${this.locale}/fly`,
+        items: [{ text: 'flyit 工具库', link: `/${this.locale}/flyit/guide/introduce`, activeMatch: `/${this.locale}/flyit/` }]
       },
       {
         text: 'uni-app 相关库',
+        activeMatch: `/${this.locale}/uni`,
         items: [
           { text: 'uniui 工具库', link: `/${this.locale}/uniui/guide/introduce`, activeMatch: `/${this.locale}/uniui/` },
           { text: 'uni-http 请求库', link: `/${this.locale}/uni-http/guide/introduce`, activeMatch: `/${this.locale}/uni-http/` }
         ]
       },
       {
-        text: 'JS 相关库',
-        items: [{ text: 'flyit 工具库', link: `/${this.locale}/flyit/guide/introduce`, activeMatch: `/${this.locale}/flyit/` }]
+        text: '博客园',
+        activeMatch: `/${this.locale}/blog/`,
+        items: [
+          { text: '关于我', link: `/${this.locale}/blog/` },
+          { text: '可视化大屏', link: `/${this.locale}/blog/large-screen/`, activeMatch: `/${this.locale}/blog/large-screen/` }
+        ]
       }
     ]
   }
@@ -113,8 +118,8 @@ class Menu<T> {
           }
         ]
       },
-      { text: 'gitee', link: 'https://gitee.com/anyup/uniui' },
-      { text: 'github', link: 'https://github.com/anyup/uniui' }
+      { text: 'github', link: 'https://github.com/anyup/uniui' },
+      { text: 'gitee', link: 'https://gitee.com/anyup/uniui' }
     ]
   }
 
@@ -139,8 +144,8 @@ class Menu<T> {
           }
         ]
       },
-      { text: 'gitee', link: 'https://gitee.com/anyup/uni-http' },
-      { text: 'github', link: 'https://github.com/anyup/uni-http' }
+      { text: 'github', link: 'https://github.com/anyup/uni-http' },
+      { text: 'gitee', link: 'https://gitee.com/anyup/uni-http' }
     ]
   }
 
@@ -195,8 +200,8 @@ class Menu<T> {
           }
         ]
       },
-      { text: 'gitee', link: 'https://gitee.com/anyup/uni-colorful' },
-      { text: 'github', link: 'https://github.com/anyup/uni-colorful' }
+      { text: 'github', link: 'https://github.com/anyup/uni-colorful' },
+      { text: 'gitee', link: 'https://gitee.com/anyup/uni-colorful' }
     ]
   }
 

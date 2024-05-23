@@ -4,10 +4,11 @@
     <div>
       <p>👨‍🎓 教育 | 计算机科学与技术 · 本科</p>
       <p>👨‍💻 工作 | 前端开发工程师</p>
-      <p>🏷️ 技术 | Vue Angular JavaScript uni-app</p>
+      <p>🏷️ 技术 | Vue、Angular、React、JS、TS、node、uni-app、小程序等</p>
       <p>📱 微信 | anyupxing</p>
-      <p>🏆 公众号｜ 前端梦工厂</p>
+      <p>🏆 公众号｜ 前端梦工厂<span class="follow-us">关注公众号，让我们一起逐梦前端！</span></p>
     </div>
+
     <div class="article-link-info">
       <CustomIcon name="yuanwenlianjie1" size="30px" color="#4e6e8e" />
       <a :href="link" target="_blank" rel="noopener noreferrer">
@@ -47,5 +48,11 @@ const props = defineProps({
   color: #3451b2;
   font-weight: 500;
   padding-left: 5px;
+}
+
+.follow-us {
+  color: rgb(17, 190, 190);
+  font-size: 13px;
+  margin-left: 10px;
 }
 </style>
