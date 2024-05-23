@@ -21,7 +21,7 @@ hero:
       text: 我的博客
       link: /zh/blog/
   image:
-    src: /images/vitepress-logo-large.webp
+    src: /images/vitepress-logo-large.png
     alt: VitePress
 
 features:
