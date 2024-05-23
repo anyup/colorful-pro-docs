@@ -11,9 +11,12 @@ hero:
     - theme: brand
       text: uni-app工具库
       link: /zh/uniui/guide/introduce
-    - theme: brand
+    - theme: alt
       text: uni-app请求库
       link: /zh/uni-http/guide/introduce
+    - theme: brand
+      text: flyit工具库
+      link: /zh/flyit/guide/introduce
     - theme: alt
       text: 我的博客
       link: /zh/blog/
