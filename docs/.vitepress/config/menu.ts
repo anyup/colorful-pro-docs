@@ -219,7 +219,7 @@ class Menu<T> {
               { text: '介绍', link: 'guide/introduce' },
               { text: '安装', link: 'guide/install' },
               { text: '快速上手', link: 'guide/quickstart' },
-              { text: '注意事项', link: 'guide/feature' }
+              { text: '最佳实践', link: 'guide/bestdemo' }
             ]
           }
         ]
