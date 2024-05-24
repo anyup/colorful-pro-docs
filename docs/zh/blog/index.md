@@ -24,7 +24,9 @@ title: 简介
 
 <p><CustomIcon name="weixingongzhonghao" size="22px" color="#00b066" /> 微信公众号｜ 前端梦工厂 </p>
 
-![image.png](https://cdn.nlark.com/yuque/0/2024/png/756043/1711511212734-584243f5-cdef-4f0d-8758-392b2b743b87.png?x-oss-process=image%2Fformat%2Cwebp)
+<!-- ![image.png](https://cdn.nlark.com/yuque/0/2024/png/756043/1711511212734-584243f5-cdef-4f0d-8758-392b2b743b87.png?x-oss-process=image%2Fformat%2Cwebp) -->
+
+![image.png](https://www.anyup.cn/static/anyup/images/qr_personal_wx.png)
 
 ## 关于项目
 
