@@ -29,17 +29,18 @@ export const shared = defineConfig({
 
   /* prettier-ignore */
   head: [
-    ['link', { rel: 'icon', type: 'image/png', href: 'https://www.anyup.cn/static/anyup/images/logo.png' }],
+    ['link', { rel: 'icon', type: 'image/png', href: 'https://www.anyup.cn/static/anyup/images/logo-heart-transparent.png' }],
     ['meta', { name: 'theme-color', content: '#5f67ee' }],
     ['meta', { name: 'referrer', content: 'no-referrer' }],
-    ['meta', { name: 'keywords', content: 'anyup design,uni-app,前端工具库,blog' }],
+    ['meta', { name: 'keywords', content: 'anyup design,JavaScript,TypeScript,Vue3,uni-app,前端工具库,博客,blog' }],
     ['meta', { property: 'og:type', content: 'website' }],
-    ['meta', { property: 'og:locale', content: 'en' }],
+    ['meta', { property: 'og:locale', content: 'zh' }],
     ['meta', { property: 'og:title', content: 'anyup design | Vite & Vue Powered Static Site Generator' }],
     ['meta', { property: 'og:site_name', content: 'anyup design' }],
-    ['meta', { property: 'og:image', content: 'https://vitepress.dev/vitepress-og.jpg' }],
+    ['meta', { property: 'og:image', content: 'https://www.anyup.cn/static/anyup/images/vitepress-og.png' }],
     ['meta', { property: 'og:url', content: 'https://www.anyup.cn' }],
     ['script', { src: 'https://cdn.usefathom.com/script.js', 'data-site': 'AZBRSFGG', 'data-spa': 'auto', defer: '' }],
+    // 不蒜子网站统计 https://busuanzi.ibruce.info/
     ['script', { src: '//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js' }],
     // 百度站长验证
     ['meta', { name: 'baidu-site-verification', content: 'code-KOgnjImY1m' }],
