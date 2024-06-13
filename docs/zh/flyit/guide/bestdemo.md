@@ -121,11 +121,17 @@ import userApi from '@/api/modules/user';
 import { getUserList } from '@/api/modules/user';
 
 <script lang="ts" setup>
-  const getUserList = (offset: number, limit: number) => {
+  const requestDemo = (offset: number, limit: number) => {
     const query = { offset, limit };
+
     userApi.getUserList({ data: { query } }).then((res) => {
       console.log(res);
     });
+
+    getUserList({ data: { query } }).then((res) => {
+      console.log(res);
+    });
+
   };
 </script>
 
