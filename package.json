@@ -4,7 +4,7 @@
   "description": "uni-colorful 官方文档",
   "main": "index.js",
   "scripts": {
-    "docs:dev": "vitepress dev docs",
+    "docs:dev": "vitepress dev docs --port 8888",
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs"
   },

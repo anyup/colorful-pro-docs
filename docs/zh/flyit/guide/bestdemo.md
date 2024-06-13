@@ -131,6 +131,6 @@ import { getUserList } from '@/api/modules/user';
 
 ```
 
-## 四. 请求示例演示
+## 三. 请求示例演示
 
 ![http-demo.gif](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/648da621f0a2440d81ec151134b80513~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1000&h=600&s=560997&e=gif&f=102&b=fefefe)
