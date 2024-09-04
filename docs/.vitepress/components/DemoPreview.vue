@@ -1,6 +1,6 @@
 <template>
   <div class="demo-preview-wrap">
-    <img src="/images/iphone.png" />
+    <img src="/images/iphone2.png" />
     <span class="demo-time">{{ currentTime() }}</span>
     <iframe scrolling="auto" frameborder="0" :src="`${baseUrl}${url}`" />
   </div>
@@ -58,7 +58,8 @@ const currentTime = () => {
 
 .demo-preview-wrap iframe {
   position: relative;
-  padding: 48px 16px 28px 16px;
+  /* padding: 48px 16px 28px 16px; */
+  padding: 65px 19px;
   width: 100%;
   height: 100%;
   overflow-y: auto;

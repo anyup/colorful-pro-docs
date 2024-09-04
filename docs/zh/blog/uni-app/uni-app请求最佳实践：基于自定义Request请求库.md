@@ -2,11 +2,13 @@
 title: uni-app请求最佳实践：基于自定义Request请求库
 ---
 
-# uni-app 请求最佳实践：基于自定义 Request 请求库
+# uni-app请求最佳实践：基于自定义Request请求库
+
+![image.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/03e95d4f235e4d4c999f1fd8021a3419~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=697&h=282&s=17531&e=png&b=feffff)
 
 ## 一. 前言
 
-之前一篇文章详细写了如何基于 `uni.request` 打造一款轻量便捷的 `uni-http` 请求库，支持多种运行环境，包括**浏览器 H5**、**小程序**、**APP** 等各端。
+之前一篇文章详细写了如何基于 `uni.request` 打造一款轻量便捷、小而美的 `uni-http` 请求库，支持多种运行环境，包括**浏览器 H5**、**小程序**、**APP** 等各端。
 
 详细了解请看文章：[100 行代码打造小而美的 uni-app 请求库](https://juejin.cn/post/7360893272199348233)
 
@@ -17,7 +19,6 @@ title: uni-app请求最佳实践：基于自定义Request请求库
 详细了解请看文章：[前端小工具！加速构建你的 API 请求类，全端通用](https://juejin.cn/post/7371479502456963106)
 
 今天我们来说一下基于 `uni-http` 这个请求库，如何更高效，标准化的使用它，以及如何与 `FlyHttp` 搭配使用，构建 API 请求的最佳实践方案！文末源码仅供参考。
-
 
 ![image.png](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/f977b58621474881a22219b8c49337cf~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1079&h=387&s=62033&e=png&b=fffbfb)
 
@@ -379,8 +380,8 @@ export default http.dispatch(urls)
         const data = { username: 'admin', password: '123456' }
         const res = await userApi.userLogin({ data: data })
         // 请求成功，后续处理
-        if(res) {
-            console.log(res)
+        if (res) {
+          console.log(res)
         }
       }
     }
@@ -392,8 +393,10 @@ export default http.dispatch(urls)
 
 通过本篇文章，我们了解了以下内容：
 
-- 如何使用 uni-http 请求库标准化的在 uni-app 项目中请数据。
-- 如何通过 uni-http 结合 FlyHttp 构建更加高效的请求流程，降低重复代码。
+- 如何使用 `uni-http` 请求库标准化的在 `uni-app` 项目中请数据。
+- 如何通过 `uni-http` 结合 `FlyHttp` 构建更加高效的请求流程，降低重复代码。
+
+`uni-http` 和 `FlyHttp` 即可单独使用也可结合使用，二者具有极强的解耦性，如果你有更好用的 uni-app 请求库，或者有自己封装的请求库，亦可以搭配 `FlyHttp` 实现生成部分代码！
 
 ## 关联文档
 
@@ -407,10 +410,10 @@ export default http.dispatch(urls)
 
 源码仅供参考：
 
-[uni-app 示例 Demo 源码下载](https://github.com/anyup/juejin-up/tree/master/template/uni-template)
+github 源码地址：[uni-app 示例 Demo 源码下载](https://github.com/anyup/juejin-up/tree/master/template/uni-template)
 
-使用部分截图如下：
+使用过程中部分截图如下：
 
 ![image.png](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/24ced43e045141648dba94b2b7e06076~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=988&h=529&s=107471&e=png&b=fefdfd)
 
-<ArticleFooter link="" />
+<ArticleFooter link="https://juejin.cn/post/7374224361560358946" />

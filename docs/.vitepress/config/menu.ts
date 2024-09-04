@@ -63,7 +63,11 @@ class Menu<T> {
           { text: 'ECharts地图实战分析：实现一个完整的地图下钻功能', link: 'large-screen/ECharts地图实战分析：实现一个完整的地图下钻功能' },
           { text: '产品需求：ECharts鼠标自由刷选区域，定向放大图表', link: 'large-screen/产品需求：ECharts鼠标自由刷选区域，定向放大图表' },
           { text: '分享ECharts地图合规整改经验，并实现一个最基础的中国地图', link: 'large-screen/分享ECharts地图合规整改经验，并实现一个最基础的中国地图' },
-          { text: '分析ECharts图表渲染导致的内存泄漏问题-附解决方案', link: 'large-screen/分析ECharts图表渲染导致的内存泄漏问题-附解决方案' }
+          { text: '分析ECharts图表渲染导致的内存泄漏问题-附解决方案', link: 'large-screen/分析ECharts图表渲染导致的内存泄漏问题-附解决方案' },
+          { text: '探索ECharts地图区域自动高亮轮播的方案', link: 'large-screen/探索ECharts地图区域自动高亮轮播的方案' },
+          { text: 'ECharts-GL实战：轻松实现3D旋转地球', link: 'large-screen/ECharts-GL实战：轻松实现3D旋转地球' },
+          { text: 'ECharts-GL实现世界级、国家级、省市级3D地图', link: 'large-screen/ECharts-GL实现世界级、国家级、省市级3D地图' },
+          { text: 'ECharts-GL实战：教你轻松实现3D地图下钻功能', link: 'large-screen/ECharts-GL实战：教你轻松实现3D地图下钻功能' }
         ])
       },
       {
@@ -81,6 +85,7 @@ class Menu<T> {
           { text: '玩转uni-app多端编译：static目录进行条件编译的最佳实践', link: 'uni-app/玩转uni-app多端编译：static目录进行条件编译的最佳实践' },
           { text: '经历了PMP和软考高项，我独立开发了一款刷题小程序', link: 'uni-app/经历了PMP和软考高项，我独立开发了一款刷题小程序' },
           { text: '100行代码打造小而美的uni-app请求库', link: 'uni-app/100行代码打造小而美的uni-app请求库' },
+          { text: 'uni-app请求最佳实践：基于自定义Request请求库', link: 'uni-app/uni-app请求最佳实践：基于自定义Request请求库' },
           { text: '前端小工具！加速构建你的API请求类，全端通用', link: 'uni-app/前端小工具！加速构建你的API请求类，全端通用' }
         ])
       }

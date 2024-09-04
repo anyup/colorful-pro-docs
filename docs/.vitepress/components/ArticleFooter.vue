@@ -6,11 +6,11 @@
       <p>👨‍💻 工作 | 前端开发工程师</p>
       <p>🏷️ 技术 | Vue、Angular、React、JS、TS、node、uni-app、小程序等</p>
       <p>
-        📱 微信 |
+        📱 微信 | anyupxing
         <el-popover placement="top-start" title="扫码添加：anyupxing" :width="200" trigger="hover">
           <img src="https://www.anyup.cn/static/anyup/images/qr_personal_wx.png" alt="" srcset="" />
           <template #reference>
-            <span class="cursor green">anyupxing</span>
+            <span class="cursor follow-us">加我为好友，共同交流进步！</span>
           </template>
         </el-popover>
       </p>
@@ -52,7 +52,7 @@ const props = defineProps({
   },
   linkName: {
     type: String,
-    default: '原文链接'
+    default: '本文其他阅读地址'
   }
 })
 
