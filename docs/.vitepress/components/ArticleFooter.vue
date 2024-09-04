@@ -5,27 +5,49 @@
       <p>👨‍🎓 教育 | 计算机科学与技术 · 本科</p>
       <p>👨‍💻 工作 | 前端开发工程师</p>
       <p>🏷️ 技术 | Vue、Angular、React、JS、TS、node、uni-app、小程序等</p>
-      <p>📱 微信 | anyupxing</p>
-      <p>🏆 公众号｜ 前端梦工厂<span class="follow-us">关注公众号，让我们一起逐梦前端！</span></p>
+      <p>
+        📱 微信 |
+        <el-popover placement="top-start" title="扫码添加：anyupxing" :width="200" trigger="hover">
+          <img src="https://www.anyup.cn/static/anyup/images/qr_personal_wx.png" alt="" srcset="" />
+          <template #reference>
+            <span class="cursor green">anyupxing</span>
+          </template>
+        </el-popover>
+      </p>
+      <p class="cursor">
+        🏆 公众号｜ 前端梦工厂
+        <el-popover placement="top-start" title="扫码关注：前端梦工厂" :width="200" trigger="hover">
+          <img src="https://www.anyup.cn/static/anyup/images/qr_wx_public.jpg" alt="" srcset="" />
+          <template #reference>
+            <span class="cursor follow-us">关注公众号，让我们一起逐梦前端！</span>
+          </template>
+        </el-popover>
+      </p>
     </div>
 
+    <h4>{{ linkName }}</h4>
     <div class="article-link-info">
-      <CustomIcon name="yuanwenlianjie1" size="30px" color="#4e6e8e" />
-      <a :href="link" target="_blank" rel="noopener noreferrer">
-        {{ linkName }}
-      </a>
+      <div class="article-link-info-item" v-for="info in linkList">
+        <CustomIcon :name="getLinkType(info) || 'yuanwenlianjie1'" size="20px" color="#4e6e8e" />
+        <a :href="getLinkUrl(info)" target="_blank" rel="noopener noreferrer">
+          {{ LinkNames[getLinkType(info)] }}
+        </a>
+      </div>
     </div>
   </div>
 </template>
 
 <script setup lang="ts">
+import { ElButton, ElPopover } from 'element-plus'
+import { computed } from 'vue'
+
 const props = defineProps({
   name: {
     type: String,
     default: '关于我'
   },
   link: {
-    type: String,
+    type: [String, Array],
     default: ''
   },
   linkName: {
@@ -33,6 +55,28 @@ const props = defineProps({
     default: '原文链接'
   }
 })
+
+const LinkNames = {
+  juejin: '稀土掘金',
+  csdn: 'CSDN',
+  yuque: '语雀',
+  weixin: '微信公众号'
+}
+
+const linkList = computed(() => {
+  if (!props.link) return []
+  if (typeof props.link === 'string') return [props.link]
+  return props.link
+})
+
+const getLinkUrl = (link: any) => {
+  console.log(link.split('::'))
+  return link.indexOf('::') !== -1 ? link.split('::')[1] : link
+}
+
+const getLinkType = (link: any) => {
+  return link.indexOf('::') !== -1 ? link.split('::')[0] : 'juejin'
+}
 </script>
 
 <style scoped>
@@ -44,15 +88,45 @@ const props = defineProps({
   text-align: left;
   font-size: 16px;
 }
+
 .article-link-info a {
   color: #3451b2;
   font-weight: 500;
   padding-left: 5px;
+}
+.article-link-info-item {
+  position: relative;
+}
+
+.article-link-info-item + .article-link-info-item {
+  margin-left: 20px;
+}
+
+.article-link-info-item:not(:last-child)::after {
+  content: ' ';
+  position: absolute;
+  right: -10px;
+  height: 100%;
+  top: 0;
+  width: 1px;
+  background-color: #aaa;
+}
+
+.green {
+  color: rgb(17, 190, 190);
 }
 
 .follow-us {
   color: rgb(17, 190, 190);
   font-size: 13px;
   margin-left: 10px;
+}
+
+h4 {
+  margin-top: 30px;
+}
+
+.cursor {
+  cursor: pointer;
 }
 </style>

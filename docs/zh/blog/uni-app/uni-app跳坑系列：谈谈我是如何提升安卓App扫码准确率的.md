@@ -197,8 +197,4 @@ scanCode.start().then(res => {
 
 后续的文章我将会继续对其它扫码插件进行说明，看一下其他优秀的扫码插件是如何使用的，敬请关注！
 
-## 其他扫码插件推荐
-
-[uni-app 扫码插件推荐：基于支付宝 mPaaS 扫码组件进行开发](https://juejin.cn/post/7312358144924188722)
-
 <ArticleFooter link="https://juejin.cn/post/7300789760702824474" />

@@ -317,11 +317,5 @@ option = {
 
 4. 官方文档：[ECharts 地图配置项手册](https://echarts.apache.org/zh/option.html#geo)
 
-由于时间原因，目前我只导入了山东省的地图，其他各个省市区的地图数据大家可以按需下载导入！后面我会都导入到本地。感谢您的阅读！
-
-> 最新更新，已经支持中国所有省市下钻！
-
-> 如果您感觉文章还不错，点个赞再走吧！
-
 <ArticleFooter link="https://juejin.cn/post/7345297984264863782" />
 

@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "anyup design"
+  name: "Colorful Design"
   text: ""
   tagline: 崇尚大道至简的前端知识库
   # image: https://www.anyup.cn/static/anyup/images/logo2.png

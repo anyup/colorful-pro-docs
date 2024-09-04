@@ -724,9 +724,4 @@ const flyHttp = new FlyHttp.Builder(config => {
 
 更新：[flyit 官方文档](https://www.anyup.cn/site/zh/flyit/guide/introduce.html)
 
-> 本文正在参加金石计划征文活动，如果本文对您有帮助，麻烦**点点收藏，点点赞**！感谢
-
-如果您有任何问题，可通过沸点联系我：[点击查看沸点](https://juejin.cn/pin/7360857598806310963)
-
-
 <ArticleFooter link="https://juejin.cn/post/7371479502456963106" />

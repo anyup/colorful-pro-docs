@@ -1,6 +1,6 @@
 <template>
   <div class="footer-info">
-    Copyright © 2021 anyup design |
+    Copyright © 2021 Colorful Design |
     <a
       href="https://beian.miit.gov.cn/"
       target="_blank"

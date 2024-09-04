@@ -191,10 +191,4 @@ var option = {
 
 - [ECharts 分片加载数据和增量渲染](https://echarts.apache.org/zh/api.html#echartsInstance.appendData)
 
-## 结语
-
-- 如果你想要共同交流学习，欢迎通过沸点联系我：[点击查看沸点](https://juejin.cn/pin/7360857598806310963)
-
-> 如果您感觉文章还不错，点个赞再走吧！
-
 <ArticleFooter link="https://juejin.cn/post/7350152569756680227" />

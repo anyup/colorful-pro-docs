@@ -8,7 +8,7 @@ const menu = new Menu('zh')
 export const zh = defineConfig({
   lang: 'zh-Hans',
 
-  description: 'anyup design 是以解决方案为驱动，包含项目的最佳实践，最佳的组件实现和便捷的工具类封装',
+  description: 'Colorful Design 是以解决方案为驱动，包含项目的最佳实践，最佳的组件实现和便捷的工具类封装',
 
   themeConfig: {
     nav: menu.nav(),

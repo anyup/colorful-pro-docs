@@ -452,7 +452,4 @@ async function requestLogin2(username, password) {
 
 - [npm](https://www.npmjs.com/package/@anyup/uni-http)
 
-> 本文正在参加金石计划征文活动，欢迎点赞、收藏加关注，欢迎在评论区留言，让我们一起讨论进步！
-
-
 <ArticleFooter link="https://juejin.cn/post/7360893272199348233" />

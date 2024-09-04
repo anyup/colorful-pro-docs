@@ -226,6 +226,4 @@ uniCloud 同时也提供了前端网页托管的功能，可以将网站打包�
 
 <img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/4c14397eef474e058e06be305fd47cec~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=654&h=1162&s=165910&e=png&b=f9f9f9" alt="image.png" width="50%" />
 
-> 本文正在参加金石计划征文活动，如果本文对您有帮助，麻烦点点关注，点点赞！
-
 <ArticleFooter link="https://juejin.cn/post/7357141293111525416" />

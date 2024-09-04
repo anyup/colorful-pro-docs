@@ -10,6 +10,9 @@ import FooterInfo from '../components/FooterInfo.vue'
 import ArticleFooter from '../components/ArticleFooter.vue'
 import CustomIcon from '../components/CustomIcon.vue'
 import SitePV from '../components/SitePV.vue'
+import ElementPlus from 'element-plus'
+import 'element-plus/dist/index.css'
+
 
 /** @type {import('vitepress').Theme} */
 export default {

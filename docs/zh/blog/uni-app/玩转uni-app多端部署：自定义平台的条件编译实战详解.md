@@ -360,13 +360,4 @@ uni-app 的条件编译能支持以下几种场景，具体如图所示：
 
 - [vue.config.js 说明](https://uniapp.dcloud.net.cn/collocation/vue-config.html)
 
-
-## 文章推荐
-
-关于 uni-app static 目录的条件编译以及自定义 static 目录的详细说明，请参考：[uni-app 多端编译： static 目录进行条件编译的最佳实践](https://juejin.cn/post/7348245676889718834)
-
-
-> 如果您感觉文章还不错，点个赞再走吧！
-
-
 <ArticleFooter link="https://juejin.cn/post/7344970197131329575" />

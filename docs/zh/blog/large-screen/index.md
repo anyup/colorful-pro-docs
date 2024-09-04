@@ -26,4 +26,4 @@ title: ECharts 可视化大屏开发专栏
 
 欢迎关注本专栏，一起学习 ECharts 可视化大屏开发技术，探索数据可视化的魅力和应用场景！让我们一同打造出精美、高效的可视化大屏应用！
 
-<ArticleFooter link="https://juejin.cn/column/7313507274869162047" link-name="掘金专栏实时更新，欢迎关注" />
+<ArticleFooter link="https://juejin.cn/column/7313507274869162047" link-name="订阅专栏，实时更新" />

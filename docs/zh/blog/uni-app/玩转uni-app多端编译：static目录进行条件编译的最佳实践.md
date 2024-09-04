@@ -341,11 +341,4 @@ chainWebpack: (config) => {
 
 [uni-app static 目录的条件编译](https://uniapp.dcloud.net.cn/tutorial/platform.html#static)
 
-## 关联文章
-
-[玩转 uni-app 多端部署：自定义平台的条件编译实战详解](https://juejin.cn/post/7344970197131329575)
-
-> 如果您感觉文章还不错，点个赞再走吧！
-
-
 <ArticleFooter link="https://juejin.cn/post/7348245676889718834" />

@@ -257,8 +257,4 @@ myChart.setOption({
 
 [ECharts 5 升级指南](https://echarts.apache.org/handbook/zh/basics/release-note/v5-upgrade-guide/)
 
-## 推荐文章
-
-关于地图下钻，新文章出炉：[ECharts 地图实战分析：实现一个完整的地图下钻功能](https://juejin.cn/post/7345297984264863782)
-
 <ArticleFooter link="https://juejin.cn/post/7313742254144880676" />

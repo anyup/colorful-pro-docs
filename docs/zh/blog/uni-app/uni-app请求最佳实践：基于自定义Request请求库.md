@@ -413,8 +413,4 @@ export default http.dispatch(urls)
 
 ![image.png](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/24ced43e045141648dba94b2b7e06076~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=988&h=529&s=107471&e=png&b=fefdfd)
 
-> 本文正在参加金石计划征文活动，如果本文对您有帮助，麻烦点点收藏，点点赞！感谢
-
-如果你有更好的实现方案，欢迎评论区讨论，共同探讨交流，或通过沸点联系我：[点击查看沸点](https://juejin.cn/pin/7360857598806310963)
-
 <ArticleFooter link="" />
