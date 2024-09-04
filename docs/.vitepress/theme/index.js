@@ -12,6 +12,7 @@ import CustomIcon from '../components/CustomIcon.vue'
 import SitePV from '../components/SitePV.vue'
 import ElementPlus from 'element-plus'
 import 'element-plus/dist/index.css'
+import { ElPopover } from 'element-plus'
 
 
 /** @type {import('vitepress').Theme} */
@@ -24,6 +25,7 @@ export default {
 			app.component('FooterInfo', FooterInfo),
 			app.component('ArticleFooter', ArticleFooter),
 			app.component('CustomIcon', CustomIcon),
-			app.component('SitePV', SitePV)
+			app.component('SitePV', SitePV),
+			app.component('ElPopover', ElPopover)
 	}
 }

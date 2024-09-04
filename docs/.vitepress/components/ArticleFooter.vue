@@ -38,7 +38,7 @@
 </template>
 
 <script setup lang="ts">
-import { ElButton, ElPopover } from 'element-plus'
+import { ElPopover } from 'element-plus'
 import { computed } from 'vue'
 
 const props = defineProps({

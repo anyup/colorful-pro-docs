@@ -22,11 +22,18 @@ title: 简介
 
 <p><CustomIcon name="yuque" size="20px" color="#00b066" /> 语雀 |  <a href="https://www.yuque.com/anyup" target="_blank">点击链接直达语雀 >>></a></p>
 
-<p><CustomIcon name="weixingongzhonghao" size="22px" color="#00b066" /> 微信公众号｜ 前端梦工厂 </p>
+<p><CustomIcon name="weixingongzhonghao" size="22px" color="#00b066" /> 微信公众号｜ 
+    <el-popover placement="top-start" title="扫码关注：前端梦工厂" :width="200" trigger="hover">
+        <img src="https://www.anyup.cn/static/anyup/images/qr_wx_public.jpg" alt="" srcset="" />
+        <template #reference>
+            <a href="javascript:;">前端梦工厂</a>
+        </template>
+    </el-popover>
+</p>
 
 <!-- ![image.png](https://cdn.nlark.com/yuque/0/2024/png/756043/1711511212734-584243f5-cdef-4f0d-8758-392b2b743b87.png?x-oss-process=image%2Fformat%2Cwebp) -->
 
-![image.png](https://www.anyup.cn/static/anyup/images/qr_personal_wx_group.png)
+<!-- ![image.png](https://www.anyup.cn/static/anyup/images/qr_personal_wx_group.png) -->
 
 ## 关于项目
 
@@ -50,4 +57,16 @@ title: 简介
 
 **3. PMP 题库**
 
-获取方式，关注公众号 “**前端梦工厂**” 发送关键字 “**有题记**” 获取，或扫码获取[（向上看）](#关于社区)
+- 基于第六版 PMBOK 指南教材的题库
+
+**4. 获取方式**
+
+<p>
+关注公众号 “<strong>前端梦工厂</strong>” 发送关键字 “<strong>有题记</strong>” 获取，或扫码获取
+    <el-popover placement="top-start" title="扫码关注：前端梦工厂" :width="200" trigger="click">
+        <img src="https://www.anyup.cn/static/anyup/images/qr_wx_public.jpg" alt="" srcset="" />
+        <template #reference>
+            <a href="javascript:;">(点击扫码)</a>
+        </template>
+    </el-popover>
+</p>
