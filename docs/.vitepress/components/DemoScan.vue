@@ -55,7 +55,7 @@
 .demo-scan-row:before,
 .demo-scan-row:after {
   display: table;
-  content: " ";
+  content: ' ';
 }
 
 .demo-scan-row:after {
@@ -77,6 +77,12 @@
   margin: 20px 10px;
   padding: 40px 0;
   min-height: 210px;
+  transition: all 0.3s;
+}
+
+.demo-scan-item:hover {
+  bottom: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 .demo-scan-item img {
