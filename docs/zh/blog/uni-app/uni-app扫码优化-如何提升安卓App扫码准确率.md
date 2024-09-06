@@ -197,4 +197,4 @@ scanCode.start().then(res => {
 
 后续的文章我将会继续对其它扫码插件进行说明，看一下其他优秀的扫码插件是如何使用的，敬请关注！
 
-<ArticleFooter link="https://juejin.cn/post/7300789760702824474" />
+<ArticleFooter :link="['juejin::https://juejin.cn/post/7300789760702824474', 'weixin::https://mp.weixin.qq.com/s/3c9IafKHtokl0wxqdjzJ8A']" />

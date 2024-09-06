@@ -214,4 +214,4 @@ mpaasScanModule.mpaasScan(
 
 [uni-app 支付宝原生扫码插件](https://ext.dcloud.net.cn/plugin?id=2636)
 
-<ArticleFooter link="https://juejin.cn/post/7312358144924188722" />
+<ArticleFooter :link="['juejin::https://juejin.cn/post/7312358144924188722', 'weixin::https://mp.weixin.qq.com/s/RelllOXpwJLzMTXdlZl5vw']" />

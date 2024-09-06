@@ -187,4 +187,4 @@ function pxToRpx(value) {
 
 ![Snipaste_2024-04-03_17-17-20.png](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/bb46858c740449d3b9322aba3dac2200~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=650&h=130&s=19740&e=png&b=ffffff)
 
-<ArticleFooter link="https://juejin.cn/post/7339743984099016745" />
+<ArticleFooter :link="['juejin::https://juejin.cn/post/7339743984099016745', 'weixin::https://mp.weixin.qq.com/s/9BjfQEHcqTxmOA4Fi7Laiw', 'yuque::https://www.yuque.com/anyup/uniapp/nise0t4ck9gztsoh']" />

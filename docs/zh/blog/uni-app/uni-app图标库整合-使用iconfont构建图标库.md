@@ -201,4 +201,4 @@ title: uni-app图标库整合：使用iconfont构建属于自己的图标库
 
 [iconfont - 阿里巴巴矢量图标库](https://www.iconfont.cn/)
 
-<ArticleFooter link="https://juejin.cn/post/7314121672886075443" />
+<ArticleFooter :link="['juejin::https://juejin.cn/post/7314121672886075443', 'weixin::https://mp.weixin.qq.com/s/tIuiI34Dwexcq_AGsDN5gg']" />

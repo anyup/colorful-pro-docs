@@ -28,9 +28,9 @@
     <h4>{{ linkName }}</h4>
     <div class="article-link-info">
       <div class="article-link-info-item" v-for="info in linkList">
-        <CustomIcon :name="getLinkType(info) || 'yuanwenlianjie1'" size="20px" color="#4e6e8e" />
+        <CustomIcon :name="getLinkType(info) || 'yuanwenlianjie1'" size="20px" :color="LinkNames[getLinkType(info)].color" />
         <a :href="getLinkUrl(info)" target="_blank" rel="noopener noreferrer">
-          {{ LinkNames[getLinkType(info)] }}
+          {{ LinkNames[getLinkType(info)].name }}
         </a>
       </div>
     </div>
@@ -57,10 +57,10 @@ const props = defineProps({
 })
 
 const LinkNames = {
-  juejin: '稀土掘金',
-  csdn: 'CSDN',
-  yuque: '语雀',
-  weixin: '微信公众号'
+  juejin: { name: '稀土掘金', color: '#1e80ff' },
+  csdn: { name: 'CSDN', color: '#fc5531' },
+  yuque: { name: '语雀', color: '#00b578' },
+  weixin: { name: '微信公众号', color: '#07c160' }
 }
 
 const linkList = computed(() => {

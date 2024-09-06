@@ -226,4 +226,4 @@ uniCloud 同时也提供了前端网页托管的功能，可以将网站打包�
 
 <img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/4c14397eef474e058e06be305fd47cec~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=654&h=1162&s=165910&e=png&b=f9f9f9" alt="image.png" width="50%" />
 
-<ArticleFooter link="https://juejin.cn/post/7357141293111525416" />
+<ArticleFooter :link="['juejin::https://juejin.cn/post/7357141293111525416', 'weixin::https://mp.weixin.qq.com/s/D4s9qeRAGtPsF_rZ30iSzg', 'yuque::https://www.yuque.com/anyup/uniapp/kr7ze899zlsexvyh', 'csdn::https://blog.csdn.net/qq_24956515/article/details/137789087']" />

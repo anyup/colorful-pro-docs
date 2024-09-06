@@ -227,4 +227,4 @@ title: 解析 uni-app 小程序分包策略：合理优化包体积分布
 
 2. [微信小程序使用分包](https://developers.weixin.qq.com/miniprogram/dev/framework/subpackages/basic.html)
 
-<ArticleFooter link="https://juejin.cn/post/7294525616450535436" />
+<ArticleFooter :link="['juejin::https://juejin.cn/post/7294525616450535436', 'weixin::https://mp.weixin.qq.com/s/LFH-lneMLNwRCDqMR2HnUA']" />

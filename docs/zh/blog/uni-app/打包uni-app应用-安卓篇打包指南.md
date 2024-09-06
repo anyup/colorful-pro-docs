@@ -294,4 +294,4 @@ DCloud 官方为了节流，做了一些打包次数的限制，官方说明：�
 
 [App 离线打包](https://nativesupport.dcloud.net.cn/AppDocs/usesdk/android.html)
 
-<ArticleFooter link="https://juejin.cn/post/7296317316206411787" />
+<ArticleFooter :link="['juejin::https://juejin.cn/post/7296317316206411787', 'weixin::https://mp.weixin.qq.com/s/hztgJFzR48th0OP3XcbrmA', 'yuque::https://www.yuque.com/anyup/uniapp/atg07ko13urzund1', 'csdn::https://blog.csdn.net/qq_24956515/article/details/141716906']" />
