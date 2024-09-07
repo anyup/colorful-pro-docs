@@ -128,7 +128,7 @@ class Menu<T> {
           { text: '前端性能优化-回流与重绘', link: 'front-end/前端性能优化-回流与重绘' },
           { text: '前端性能优化-图片懒加载', link: 'front-end/前端性能优化-图片懒加载' },
           { text: '前端性能优化-防抖与节流', link: 'front-end/前端性能优化-防抖与节流' },
-          { text: '可选链(?.)打造简洁且健壮的代码', link: 'front-end/可选链(?.)打造简洁且健壮的代码' },
+          { text: '可选链打造简洁且健壮的代码', link: 'front-end/可选链打造简洁且健壮的代码' },
           { text: '巧用meta标签，设置referrer解决403Forbidden', link: 'front-end/巧用meta标签，设置referrer解决403Forbidden' },
           { text: '微信公众号，从零到一快速实现微信公众号授权', link: 'front-end/微信公众号，从零到一快速实现微信公众号授权' },
           { text: '微信公众号，微信小程序与公众号下发统一消息接口调整', link: 'front-end/微信公众号，微信小程序与公众号下发统一消息接口调整' },

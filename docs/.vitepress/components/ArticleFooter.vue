@@ -28,9 +28,9 @@
     <h4>{{ linkName }}</h4>
     <div class="article-link-info">
       <div class="article-link-info-item" v-for="info in linkList">
-        <CustomIcon :name="getLinkType(info) || 'yuanwenlianjie1'" size="20px" :color="LinkNames[getLinkType(info)].color" />
+        <CustomIcon :name="getLinkType(info) || 'yuanwenlianjie1'" size="20px" :color="getLinkColor(info)" />
         <a :href="getLinkUrl(info)" target="_blank" rel="noopener noreferrer">
-          {{ LinkNames[getLinkType(info)].name }}
+          {{ getLinkName(info) }}
         </a>
       </div>
     </div>
@@ -56,7 +56,7 @@ const props = defineProps({
   }
 })
 
-const LinkNames = {
+const LinkConfig = {
   juejin: { name: '稀土掘金', color: '#1e80ff' },
   csdn: { name: 'CSDN', color: '#fc5531' },
   yuque: { name: '语雀', color: '#00b578' },
@@ -69,13 +69,24 @@ const linkList = computed(() => {
   return props.link
 })
 
+// 获取链接
 const getLinkUrl = (link: any) => {
-  console.log(link.split('::'))
   return link.indexOf('::') !== -1 ? link.split('::')[1] : link
 }
 
+// 获取链接类型
 const getLinkType = (link: any) => {
   return link.indexOf('::') !== -1 ? link.split('::')[0] : 'juejin'
+}
+// 获取链接名称
+const getLinkName = (info: any) => {
+  const key = getLinkType(info) || 'juejin'
+  return LinkConfig[key]?.name ?? '稀土掘金'
+}
+// 获取链接颜色
+const getLinkColor = (info: any) => {
+  const key = getLinkType(info) || 'juejin'
+  return LinkConfig[key]?.color ?? '#1e80ff'
 }
 </script>
 
