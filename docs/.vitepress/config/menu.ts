@@ -45,7 +45,6 @@ class Menu<T> {
           { text: 'Vue开发', link: `/${this.locale}/blog/vuejs2/`, activeMatch: `/${this.locale}/blog/vuejs2/` },
           { text: '开发工具', link: `/${this.locale}/blog/tools/`, activeMatch: `/${this.locale}/blog/tools/` },
           { text: '可视化大屏', link: `/${this.locale}/blog/large-screen/`, activeMatch: `/${this.locale}/blog/large-screen/` },
-          { text: '开源项目', link: `/${this.locale}/blog/open-source/`, activeMatch: `/${this.locale}/blog/open-source/` }
         ]
       }
     ]
@@ -67,6 +66,7 @@ class Menu<T> {
         text: 'CSS样式表',
         collapsed: true,
         items: [
+          { text: 'CSS样式表', link: 'css/' },
           { text: 'SCSS入门-利用预处理器升级样式表技术', link: 'css/SCSS入门-利用预处理器升级样式表技术' },
           { text: 'SCSS实践-构建适合自己的全局样式库', link: 'css/SCSS实践-构建适合自己的全局样式库' },
           { text: 'SCSS进阶-探索更多样式表达的可能性', link: 'css/SCSS进阶-探索更多样式表达的可能性' }
@@ -77,6 +77,7 @@ class Menu<T> {
         collapsed: true,
         items: [
           { text: '设计模式', link: 'design-pattern/' },
+          { text: '必备导航指南', link: 'design-pattern/必备导航指南' },
           { text: '创建型-单例模式', link: 'design-pattern/创建型-单例模式' },
           { text: '创建型-原型模式', link: 'design-pattern/创建型-原型模式' },
           { text: '创建型-工厂方法模式', link: 'design-pattern/创建型-工厂方法模式' },
@@ -102,6 +103,7 @@ class Menu<T> {
         text: '精通前端',
         collapsed: true,
         items: [
+          { text: '精通前端', link: 'front-end/' },
           { text: 'Blob实践-应用场景和实例分析', link: 'front-end/Blob实践-应用场景和实例分析' },
           { text: 'Blob指南-从零开始学习Blob对象的使用', link: 'front-end/Blob指南-从零开始学习Blob对象的使用' },
           { text: 'Canvas入门-了解几个绘制基本图形的 API', link: 'front-end/Canvas入门-了解几个绘制基本图形的 API' },
@@ -171,6 +173,7 @@ class Menu<T> {
         text: '开发工具',
         collapsed: true,
         items: [
+          { text: '开发工具', link: 'tools/' },
           { text: 'Coze扣子初体验，创建一个智能故事机Bot', link: 'tools/Coze扣子初体验，创建一个智能故事机Bot' },
           { text: 'GitFlow：优化开发流程，团队协作的最佳实践', link: 'tools/GitFlow：优化开发流程，团队协作的最佳实践' },
           { text: 'Gulp打包：解决前端项目部署缓存问题', link: 'tools/Gulp打包：解决前端项目部署缓存问题' },
@@ -206,7 +209,7 @@ class Menu<T> {
         text: 'Vue.js开发',
         collapsed: true,
         items: [
-          { text: 'Vue异步更新nextTick解析与实践', link: 'vuejs2/Vue异步更新nextTick解析与实践' },
+          { text: 'Vue.js开发', link: 'vuejs2/' },
           { text: 'Vuex入门与实战', link: 'vuejs2/Vuex入门与实战' },
           { text: 'Vuex进阶知识', link: 'vuejs2/Vuex进阶知识' },
           { text: 'Vue事件总线的原理与应用', link: 'vuejs2/Vue事件总线的原理与应用' },
@@ -216,6 +219,7 @@ class Menu<T> {
           { text: 'Vue前端权限控制：深入理解 Vue 自定义指令的应用', link: 'vuejs2/Vue前端权限控制：深入理解 Vue 自定义指令的应用' },
           { text: 'Vue响应式监听watch的妙用', link: 'vuejs2/Vue响应式监听watch的妙用' },
           { text: 'Vue基础指令的魅力', link: 'vuejs2/Vue基础指令的魅力' },
+          { text: 'Vue异步更新nextTick解析与实践', link: 'vuejs2/Vue异步更新nextTick解析与实践' },
           { text: 'Vue插槽：提升Vue组件灵活性的利器', link: 'vuejs2/Vue插槽：提升Vue组件灵活性的利器' },
           { text: 'Vue的缓存组件：KeepAlive', link: 'vuejs2/Vue的缓存组件：KeepAlive' },
           { text: 'Vue自定义指令实战：掌握高级前端开发技巧', link: 'vuejs2/Vue自定义指令实战：掌握高级前端开发技巧' },

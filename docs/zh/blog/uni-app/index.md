@@ -26,4 +26,4 @@ title: uni-app 前端开发专栏
 
 欢迎关注本专栏，一起学习 uni-app 前端开发技能，探索跨平台应用开发的乐趣与挑战！让我们一同开启 uni-app 前端开发之旅！
 
-<ArticleFooter link="https://juejin.cn/column/7070045934851194911" link-name="订阅专栏，实时更新" />
+<ArticleFooter :link="['juejin::https://juejin.cn/column/7070045934851194911', 'yuque::https://www.yuque.com/anyup/uniapp']" link-name="订阅专栏，实时更新" />

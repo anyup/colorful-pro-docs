@@ -16,17 +16,17 @@ title: 简介
 
 ## 关于社区
 
-<p><CustomIcon name="juejin" size="19px" color="#0077f7" />  掘金 |  <a href="https://juejin.cn/user/4230576472589976/posts" target="_blank">点击链接直达掘金 >>></a></p>
+<p><CustomIcon name="juejin" size="19px" color="#0077f7" />  掘金 |  <a href="https://juejin.cn/user/4230576472589976/posts" target="_blank">点击链接直达掘金 ></a></p>
 
-<p><CustomIcon name="csdn" size="20px" color="#ff4b30" /> CSDN |  <a href="https://blog.csdn.net/qq_24956515" target="_blank">点击链接直达CSDN >>></a></p>
+<p><CustomIcon name="csdn" size="20px" color="#ff4b30" /> CSDN |  <a href="https://blog.csdn.net/qq_24956515" target="_blank">点击链接直达CSDN ></a></p>
 
-<p><CustomIcon name="yuque" size="20px" color="#00b066" /> 语雀 |  <a href="https://www.yuque.com/anyup" target="_blank">点击链接直达语雀 >>></a></p>
+<p><CustomIcon name="yuque" size="20px" color="#00b066" /> 语雀 |  <a href="https://www.yuque.com/anyup" target="_blank">点击链接直达语雀 ></a></p>
 
 <p><CustomIcon name="weixingongzhonghao" size="22px" color="#00b066" /> 微信公众号｜ 
     <el-popover placement="top-start" title="扫码关注：前端梦工厂" :width="200" trigger="hover">
         <img src="https://www.anyup.cn/static/anyup/images/qr_wx_public.jpg" alt="" srcset="" />
         <template #reference>
-            <a href="javascript:;">前端梦工厂</a>
+            <a href="javascript:;">前端梦工厂 ></a>
         </template>
     </el-popover>
 </p>
@@ -37,13 +37,13 @@ title: 简介
 
 ## 关于项目
 
-### ✨ 微信小程序 | 有题记小程序
+### 🏆 微信小程序 | 有题记小程序
 
-### 🌟 简介
+####  简介
 
 基于 uni-app 开发的一款 PMP 和软考做题软件，为了帮助广大的软考和 PMP 考试的朋友们，特地开发的一款刷题小工具。不管是在 PMP 领域还是在软考的领域，希望给大家在考试的道路上助力成功。
 
-### 目前已添加以下题库
+#### 目前已添加以下题库
 
 **1. 软考高级**
 
