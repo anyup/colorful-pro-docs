@@ -67,4 +67,4 @@
 
 设计模式的学习是一个长期的过程，它不仅仅是对编程技巧的提升，更是思维方式的转变。本专栏将伴随您一起探索 JavaScript 设计模式的奥秘，希望能成为您成长道路上的一盏明灯。让我们共同期待每一次的学习之旅吧！
 
-<ArticleFooter :link="['juejin::https://juejin.cn/column/7270160291412869172']" link-name="订阅专栏，实时更新" />
+<ArticleFooter :link="['juejin::https://juejin.cn/column/7270160291412869172', 'yuque::https://www.yuque.com/anyup/fullstack', 'csdn::https://blog.csdn.net/qq_24956515/category_12771776.html']" link-name="订阅专栏，实时更新" />
