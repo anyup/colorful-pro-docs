@@ -2,7 +2,7 @@
 import DefaultTheme from 'vitepress/theme'
 // 自定义样式
 import './custom.css'
-import './iconfont.css'
+// import './iconfont.css'
 // 自定义组件
 import DemoScan from '../components/DemoScan.vue'
 import DemoPreview from '../components/DemoPreview.vue'
