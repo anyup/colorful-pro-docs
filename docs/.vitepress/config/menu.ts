@@ -221,7 +221,7 @@ class Menu<T> {
           { text: 'Vue基础指令的魅力', link: 'vuejs2/Vue基础指令的魅力' },
           { text: 'Vue异步更新nextTick解析与实践', link: 'vuejs2/Vue异步更新nextTick解析与实践' },
           { text: 'Vue插槽：提升Vue组件灵活性的利器', link: 'vuejs2/Vue插槽：提升Vue组件灵活性的利器' },
-          { text: 'Vue的缓存组件：KeepAlive', link: 'vuejs2/Vue的缓存组件：KeepAlive' },
+          { text: 'Vue缓存组件：KeepAlive', link: 'vuejs2/Vue缓存组件：KeepAlive' },
           { text: 'Vue自定义指令实战：掌握高级前端开发技巧', link: 'vuejs2/Vue自定义指令实战：掌握高级前端开发技巧' },
           { text: 'Vue自定义组件实现v-model的几种方式', link: 'vuejs2/Vue自定义组件实现v-model的几种方式' },
           { text: 'Vue计算属性：computed的使用与优化', link: 'vuejs2/Vue计算属性：computed的使用与优化' },

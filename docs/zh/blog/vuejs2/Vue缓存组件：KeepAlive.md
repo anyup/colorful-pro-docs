@@ -1,5 +1,5 @@
 ---
-title: Vue的缓存组件 | 详解KeepAlive
+title: Vue缓存组件 | 详解KeepAlive
 ---
 
 ## 引言
