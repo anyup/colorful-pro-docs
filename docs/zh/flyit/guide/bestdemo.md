@@ -73,8 +73,12 @@ axiosInstance.interceptors.request.use()
 // 添加响应拦截器
 axiosInstance.interceptors.response.use()
 
-// 构建一个 FlyHttp 实例
+// 构建一个 FlyHttp 实例，二选一
 const flyHttpInstance = new FlyHttp.Builder(axiosInstance)
+// 构建一个自定义的实例，二选一
+const flyHttpInstance = new FlyHttp.Builder((options)=>{
+  return axiosInstance.request(options)
+})
 
 // 导出
 export { axiosInstance, flyHttpInstance }
@@ -86,10 +90,10 @@ export { axiosInstance, flyHttpInstance }
 
 ```js
 import { flyHttpInstance } from '@/api/axios' // 在 axios 应该要导出 FlyHttp 实例
-import { IRequestConfig, IResult } from '@anyup/flyit'
+import type { IRequestConfig, IResult } from '@anyup/flyit';
 
 // 定义 interface
-interface UserApi {
+interface IApi {
   getUserList: (config: IRequestConfig) => Promise<IResult>; // 获取用户列表
   getUserInfo: (config: IRequestConfig) => Promise<IResult>; // 获取用户信息
   addUser: (config: IRequestConfig) => Promise<IResult>; // 添加用户
@@ -109,7 +113,7 @@ const URL = {
 }
 
 // 导出对象
-export FlyHttp.dispatch(URL) as UserApi;
+export flyHttpInstance.dispatch(URL) as IApi;
 ```
 
 ## 4. 在页面中使用
