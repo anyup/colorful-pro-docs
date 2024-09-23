@@ -22,7 +22,7 @@ title: 简介
 
 <p><CustomIcon name="yuque" size="20px" color="#00b066" /> 语雀 |  <a href="https://www.yuque.com/anyup" target="_blank">点击链接直达语雀 ></a></p>
 
-<p><CustomIcon name="weixingongzhonghao" size="22px" color="#00b066" /> 微信公众号｜ 
+<p><CustomIcon name="weixinpublic" size="22px" color="#00b066" /> 微信公众号｜ 
     <el-popover placement="top-start" title="扫码关注：前端梦工厂" :width="200" trigger="hover">
         <img src="https://www.anyup.cn/static/anyup/images/qr_wx_public.jpg" alt="" srcset="" />
         <template #reference>
