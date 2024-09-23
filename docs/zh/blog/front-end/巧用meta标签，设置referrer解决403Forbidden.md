@@ -2,6 +2,8 @@
 title: 巧用 meta 标签，设置 referrer 解决 403 Forbidden 问题
 ---
 
+# 巧用 meta 标签，设置 referrer 解决 403 Forbidden 问题
+
 ## 一. 问题背景
 
 在网页开发过程中，我们经常会开发一些试用功能或 demo 片段，或多或少的会借用一下网络上的现有资源。然而当我们访问某些资源的时候可能会出现一些问题，比如：`403 Forbidden` - 禁止访问。

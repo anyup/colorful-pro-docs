@@ -2,6 +2,8 @@
 title: Vuex 进阶知识：如何优雅的进行 Vue 的状态管理
 ---
 
+# Vuex 进阶知识：如何优雅的进行 Vue 的状态管理
+
 ![image.png](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/0e19bc05cb36485488ec181d9212ae82~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=856&h=375&s=259196&e=png&b=fffafa)
 
 ## 引言

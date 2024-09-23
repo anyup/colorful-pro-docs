@@ -2,6 +2,8 @@
 title: 实现细粒度的前端权限控制：深入理解 Vue 自定义指令的应用
 ---
 
+# 实现细粒度的前端权限控制：深入理解 Vue 自定义指令的应用
+
 ![image.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/2af6fef1ad1743908889ee08ffa4ad2d~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1280&h=540&s=135147&e=png&b=69c181)
 
 ## 一. 引言

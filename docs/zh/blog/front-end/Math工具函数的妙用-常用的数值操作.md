@@ -2,6 +2,8 @@
 title: Math 工具函数的妙用：常用的数值操作
 ---
 
+# Math 工具函数的妙用：常用的数值操作
+
 ![image.png](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/af64eb97a0c14a61801ad5ced7d09600~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1372&h=626&s=259756&e=png&b=fcf1e8)
 
 ## 一. 引言

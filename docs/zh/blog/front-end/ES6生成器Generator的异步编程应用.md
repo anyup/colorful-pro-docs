@@ -2,6 +2,8 @@
 title: 探索 ES6 生成器 ( Generator ) 的异步编程应用
 ---
 
+# 探索 ES6 生成器 ( Generator ) 的异步编程应用
+
 ![image.png](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/60e2fbd15eac4a4daa7732142325be32~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=651&h=363&s=292954&e=png&b=f2bb07)
 
 ## 一. 前言

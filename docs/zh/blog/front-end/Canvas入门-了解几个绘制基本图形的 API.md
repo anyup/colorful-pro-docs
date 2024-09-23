@@ -2,6 +2,8 @@
 title: Canvas艺术之旅：了解几个绘制基本图形的 API
 ---
 
+# Canvas艺术之旅：了解几个绘制基本图形的 API
+
 ![image.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/a16ab26d77d74aedb203888b041065d4~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=802&h=321&s=50571&e=png&b=ffffff)
 
 ## 了解几个绘制基本图形的 `API`

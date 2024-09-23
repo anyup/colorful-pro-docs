@@ -2,6 +2,8 @@
 title: Vue插槽：提升Vue组件灵活性的利器
 ---
 
+# Vue插槽：提升Vue组件灵活性的利器
+
 ![image.png](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/315fff7e6b1d4df392f7df0959837c91~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=748&h=372&s=44875&e=png&b=ffffff)
 
 ## 一. 介绍

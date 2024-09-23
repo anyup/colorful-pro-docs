@@ -2,6 +2,8 @@
 title: 学习 ES6 生成器 ( Generator ) ：掌握优雅的异步编程利器
 ---
 
+# 学习 ES6 生成器 ( Generator ) ：掌握优雅的异步编程利器
+
 <p align=right><img src="https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/db871b82789448019c2b815b37b7dc6a~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=747&h=316&s=173591&e=png&b=fcfcfc" alt="image.png"  /></p>
 
 ## 一. 引言

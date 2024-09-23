@@ -2,6 +2,8 @@
 title: 探索优雅的处理 JavaScript 类数组对象的技巧
 ---
 
+# 探索优雅的处理 JavaScript 类数组对象的技巧
+
 <p align=center><img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/9bc0d863c922469aa726e475a770c207~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=748&h=318&s=189470&e=png&b=69c07d" alt="image.png"  /></p>
 
 ## 一. 引言

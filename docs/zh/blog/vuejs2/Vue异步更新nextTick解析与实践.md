@@ -2,6 +2,8 @@
 title: 10 分钟了解 nextTick ，并实现简易版的 nextTick
 ---
 
+# 10 分钟了解 nextTick ，并实现简易版的 nextTick
+
 ![image.png](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/a2f738fdb7a64e6dbe4c47bfbe0f57f9~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=741&h=371&s=89400&e=png&b=2eb2fe)
 
 ## 前言

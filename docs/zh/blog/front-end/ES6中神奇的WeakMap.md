@@ -2,6 +2,8 @@
 title: 认识 ES6 中神奇的 WeakMap
 ---
 
+# 认识 ES6 中神奇的 WeakMap
+
 ## 引言
 
 JavaScript 作为一门强大的编程语言，在开发中充满了各种各样的数据结构和功能。而 WeakMap 正是其中一个神秘而强大的存在。WeakMap 是在 ES6 标准中引入的数据结构，它不同于普通的 Map，具有独特的特点和用途。

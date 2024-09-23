@@ -2,6 +2,8 @@
 title: 组件通信的“传送门”：深入剖析Vue中的依赖注入机制
 ---
 
+# 组件通信的“传送门”：深入剖析Vue中的依赖注入机制
+
 ![image.png](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/c6151c22183647ec99b190454895d572~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=741&h=348&s=130074&e=png&b=fef4f3)
 
 ## 引言

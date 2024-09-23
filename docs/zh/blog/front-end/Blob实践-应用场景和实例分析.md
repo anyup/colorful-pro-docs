@@ -2,6 +2,8 @@
 title: 探索 Blob 对象的应用场景和实例分析
 ---
 
+# 探索 Blob 对象的应用场景和实例分析
+
 ![image.png](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/a0344e2b33e1406890e1ec2e11db3ef7~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1458&h=626&s=188843&e=png&b=cfeaef)
 
 ## 一. 引言

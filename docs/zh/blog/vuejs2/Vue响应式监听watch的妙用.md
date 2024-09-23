@@ -2,9 +2,7 @@
 title: Vue 响应式监听 watch 的妙用：深入解析应用场景与最佳实践
 ---
 
----
-
-## theme: channing-cyan
+# Vue 响应式监听 watch 的妙用：深入解析应用场景与最佳实践
 
 ![image.png](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/f737aa66c87e496f8d97b9c05ca37c10~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=747&h=345&s=134382&e=png&b=fef6f5)
 

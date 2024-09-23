@@ -2,6 +2,8 @@
 title: Blob 学习指南：从零开始学习 JavaScript Blob 对象的使用
 ---
 
+# Blob 学习指南：从零开始学习 JavaScript Blob 对象的使用
+
 ![image.png](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/80aaddfe412d486da9dbf486d54e0820~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=750&h=315&s=130779&e=png&b=e2793c)
 
 ![image.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/68d0cf40b6ed4e1985a73cf740ec9aba~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1193&h=672&s=146223&e=png&b=fefefe)

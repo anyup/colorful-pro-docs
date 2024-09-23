@@ -2,6 +2,8 @@
 title: Vuex 入门与实战：了解 Vue 状态管理的核心概念
 ---
 
+# Vuex 入门与实战：了解 Vue 状态管理的核心概念
+
 ![image.png](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/bb36fd347368493bae9185e760e174c1~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=855&h=378&s=254577&e=png&b=fffafa)
 
 ## 引言

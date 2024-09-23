@@ -2,6 +2,8 @@
 title: 组件通信的桥梁：探索Vue事件总线的原理与应用
 ---
 
+# 组件通信的桥梁：探索Vue事件总线的原理与应用
+
 ![image.png](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/31313d498acb4722b93c5b223013281a~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1606&h=722&s=209796&e=png&b=fef2f1)
 
 # Vue 事件总线 - 组件通信的桥梁

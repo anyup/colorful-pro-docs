@@ -1,6 +1,8 @@
 ---
-title: 一文了解ES6中独一无二的Symbol类型
+title: 一文了解 ES6 中独一无二的 Symbol 类型
 ---
+
+# 一文了解 ES6 中独一无二的 Symbol 类型
 
 ![fileOf7174.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/d1a70f48cda34f44856522d188be571d~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=800&h=500&s=141459&e=png&b=f9de55)
 

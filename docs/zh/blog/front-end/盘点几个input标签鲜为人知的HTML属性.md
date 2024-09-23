@@ -2,6 +2,8 @@
 title: 盘点几个 input 标签鲜为人知的 HTML 属性
 ---
 
+# 盘点几个input标签鲜为人知的HTML属性
+
 ![image.png](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/a325afb215874de1a096f11683cc39b3~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=763&h=312&s=39571&e=png&b=d66e1e)
 
 当涉及 HTML 表单元素时，大多数开发人员首先会想到常见的属性，比如`type`、`name`、`value`等。然而，除了这些常见属性之外，HTML 还提供了一些鲜为人知的属性，它们可以为表单元素带来额外的功能和灵活性。

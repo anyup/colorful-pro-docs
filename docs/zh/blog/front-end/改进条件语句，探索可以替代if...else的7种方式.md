@@ -2,6 +2,8 @@
 title: 改进 JavaScript 条件语句，探索可以替代 if...else 的 7 种方式！
 ---
 
+# 改进 JavaScript 条件语句，探索可以替代 if...else 的 7 种方式！
+
 ![image.png](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/ac433ca46b9144b193c23bfdea085ab8~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=891&h=375&s=149479&e=png&b=f6e75e)
 
 当优化 JavaScript 代码时，条件语句是一个经常需要思考和改进的关键部分。if...else 结构虽然是我们常用的条件语句之一，但当代码逻辑变得复杂，if...else 结构可能会导致代码冗长、难以维护和理解。因此，了解并掌握优化 if...else 结构的方法对于提高代码的可读性、可维护性和性能至关重要。
