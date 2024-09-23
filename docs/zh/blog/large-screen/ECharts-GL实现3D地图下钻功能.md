@@ -18,7 +18,7 @@ title: ECharts-GL 实战：教你轻松实现 3D 地图下钻功能
 
 提前预览一下效果图吧，文末给出源码以及演示地址，各位倔友们满意请**点赞收藏**，感谢！
 
-![3D-map-1.gif](https://p0-xtjj-private.juejin.cn/tos-cn-i-73owjymdk6/a5d45c44a12a4644aafe45ad682492bb~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAgYW55dXA=:q75.awebp?policy=eyJ2bSI6MywidWlkIjoiNDIzMDU3NjQ3MjU4OTk3NiJ9&rk3s=f64ab15b&x-orig-authkey=f32326d3454f2ac7e96d3d06cdbb035152127018&x-orig-expires=1726033728&x-orig-sign=fGdjR%2BmOmz9L2KoxsbO4F77KsFk%3D)
+![3D-map-1.gif](https://p0-xtjj-private.juejin.cn/tos-cn-i-73owjymdk6/a5d45c44a12a4644aafe45ad682492bb~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAgYW55dXA=:q75.awebp?policy=eyJ2bSI6MywidWlkIjoiNDIzMDU3NjQ3MjU4OTk3NiJ9&rk3s=f64ab15b&x-orig-authkey=f32326d3454f2ac7e96d3d06cdbb035152127018&x-orig-expires=1727688670&x-orig-sign=ZDyobbGz%2B%2BRdr3FlpAiM7%2BKje48%3D)
 
 ## 二. 实现 3D 地图
 
@@ -82,7 +82,7 @@ axios.get('https://geo.datav.aliyun.com/areas_v3/bound/geojson?code=100000_full'
 
 点击下载按钮即可下载：[全国地图下钻 geoJson 完整版下载 20240312.zip](https://github.com/anyup/juejin-up/blob/master/plugins/%E5%85%A8%E5%9B%BD%E5%9C%B0%E5%9B%BE%E4%B8%8B%E9%92%BB%20geoJson%20%E5%AE%8C%E6%95%B4%E7%89%88%2020240312.zip)
 
-![Snipaste_2024-07-12_15-28-54.png](https://p0-xtjj-private.juejin.cn/tos-cn-i-73owjymdk6/4b62bf0e121747768bf302a9713ac970~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAgYW55dXA=:q75.awebp?policy=eyJ2bSI6MywidWlkIjoiNDIzMDU3NjQ3MjU4OTk3NiJ9&rk3s=f64ab15b&x-orig-authkey=f32326d3454f2ac7e96d3d06cdbb035152127018&x-orig-expires=1726033728&x-orig-sign=ae9hx7EYSs%2BVv0NJvifnGlFScro%3D)
+![Snipaste_2024-07-12_15-28-54.png](https://p0-xtjj-private.juejin.cn/tos-cn-i-73owjymdk6/4b62bf0e121747768bf302a9713ac970~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAgYW55dXA=:q75.awebp?policy=eyJ2bSI6MywidWlkIjoiNDIzMDU3NjQ3MjU4OTk3NiJ9&rk3s=f64ab15b&x-orig-authkey=f32326d3454f2ac7e96d3d06cdbb035152127018&x-orig-expires=1727688670&x-orig-sign=P8%2BbdTo8lQ6tO%2F%2F%2FWaH63K5%2FOgo%3D)
 
 ### 3. 开发基础 3D 地图
 
@@ -162,7 +162,7 @@ const option = {
 
 当我们点击地图区域时，以点击山东省为例，会输出如下图所示的数据，则证明我们的数据正常。
 
-![image.png](https://p0-xtjj-private.juejin.cn/tos-cn-i-73owjymdk6/983f632ca8584a01b0a08a6f32aef487~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAgYW55dXA=:q75.awebp?policy=eyJ2bSI6MywidWlkIjoiNDIzMDU3NjQ3MjU4OTk3NiJ9&rk3s=f64ab15b&x-orig-authkey=f32326d3454f2ac7e96d3d06cdbb035152127018&x-orig-expires=1726033728&x-orig-sign=nfxS19NTEFxSlo0yIk04wvQsiiw%3D)
+![image.png](https://p0-xtjj-private.juejin.cn/tos-cn-i-73owjymdk6/983f632ca8584a01b0a08a6f32aef487~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAgYW55dXA=:q75.awebp?policy=eyJ2bSI6MywidWlkIjoiNDIzMDU3NjQ3MjU4OTk3NiJ9&rk3s=f64ab15b&x-orig-authkey=f32326d3454f2ac7e96d3d06cdbb035152127018&x-orig-expires=1727688670&x-orig-sign=MRk1FJFOs57m0df7YkRA3X%2BS7AU%3D)
 
 ### 2. 获取区域地图 JSON
 
@@ -242,7 +242,7 @@ myChart.on('click', function (params) {
 })
 ```
 
-![3d1.gif](https://p0-xtjj-private.juejin.cn/tos-cn-i-73owjymdk6/b7611954e3b64087b93d94dffbf2f8d2~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAgYW55dXA=:q75.awebp?policy=eyJ2bSI6MywidWlkIjoiNDIzMDU3NjQ3MjU4OTk3NiJ9&rk3s=f64ab15b&x-orig-authkey=f32326d3454f2ac7e96d3d06cdbb035152127018&x-orig-expires=1726033728&x-orig-sign=GuxNrNDlID4nm8DJ%2BEYnDw%2FZdms%3D)
+![3d1.gif](https://p0-xtjj-private.juejin.cn/tos-cn-i-73owjymdk6/b7611954e3b64087b93d94dffbf2f8d2~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAgYW55dXA=:q75.awebp?policy=eyJ2bSI6MywidWlkIjoiNDIzMDU3NjQ3MjU4OTk3NiJ9&rk3s=f64ab15b&x-orig-authkey=f32326d3454f2ac7e96d3d06cdbb035152127018&x-orig-expires=1727688670&x-orig-sign=0G8K45SQe%2FEOECEurpNndw1JVSk%3D)
 
 ### 2. 返回上一级地图
 
@@ -273,7 +273,7 @@ function goBack() {
 }
 ```
 
-![3d2.gif](https://p0-xtjj-private.juejin.cn/tos-cn-i-73owjymdk6/7720db4df761445d9c90bfad42eedec4~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAgYW55dXA=:q75.awebp?policy=eyJ2bSI6MywidWlkIjoiNDIzMDU3NjQ3MjU4OTk3NiJ9&rk3s=f64ab15b&x-orig-authkey=f32326d3454f2ac7e96d3d06cdbb035152127018&x-orig-expires=1726033728&x-orig-sign=9XB0l3atPQYYH1rt5HOfdQDkTdI%3D)
+![3d2.gif](https://p0-xtjj-private.juejin.cn/tos-cn-i-73owjymdk6/7720db4df761445d9c90bfad42eedec4~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAgYW55dXA=:q75.awebp?policy=eyJ2bSI6MywidWlkIjoiNDIzMDU3NjQ3MjU4OTk3NiJ9&rk3s=f64ab15b&x-orig-authkey=f32326d3454f2ac7e96d3d06cdbb035152127018&x-orig-expires=1727688670&x-orig-sign=IhHfNcNZChApBUb3E1HwWIw2yRw%3D)
 
 ## 五. 演示
 
