@@ -63,7 +63,7 @@ features:
 }
 </style>
 
-<DemoScan />
+<ProjectInfo />
 
 <SitePV />
 

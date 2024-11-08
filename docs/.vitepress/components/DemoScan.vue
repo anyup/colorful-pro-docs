@@ -1,6 +1,21 @@
 <template>
   <div class="demo-scan-row">
-    <div class="demo-scan-col">
+    <div v-for="(item, index) in currentList" :key="index" class="demo-scan-col">
+      <div v-if="item.fullscreen" class="demo-scan-item" :style="{ borderColor: props.borderColor }">
+        <img src="/images/thumb-colorful-app.png" />
+      </div>
+      <div v-else class="demo-scan-item" :style="{ borderColor: props.borderColor }">
+        <a v-if="item.url" :href="item.url" target="_blank">
+          <img :src="item.img" />
+        </a>
+        <img v-else :src="item.img" />
+        <div class="demo-scan-name">{{ item.name }}</div>
+        <p class="demo-scan-tips">{{ item.tips }}</p>
+        <p v-if="item.url" class="demo-click-tips">(可直接点击图片)</p>
+      </div>
+    </div>
+
+    <!-- <div class="demo-scan-col">
       <div class="demo-scan-item">
         <img src="https://www.anyup.cn/static/anyup/images/qr_wx_public.jpg" />
         <div class="demo-scan-name">
@@ -42,9 +57,35 @@
           <p class="demo-scan-tips">浏览器扫码安装</p>
         </div>
       </div>
-    </div>
+    </div> -->
   </div>
 </template>
+
+<script setup lang="ts">
+import { computed } from 'vue'
+
+const props = defineProps({
+  type: {
+    type: String,
+    default: '1'
+  },
+  borderColor: {
+    type: String,
+    default: '#dcdfe6'
+  }
+})
+
+const list = [
+  { img: 'https://www.anyup.cn/static/anyup/images/qr_wx.png', type: '1', fullscreen: true },
+  { name: '微信小程序', img: 'https://www.anyup.cn/static/anyup/images/qr_wx.png', tips: '微信扫码', type: '1', url: '' },
+  { name: '浏览器 H5', img: 'https://www.anyup.cn/static/anyup/images/qr_h5model.png', tips: '微信或浏览器扫码', type: '1', url: 'https://www.anyup.cn/h5model.html' },
+  { name: '安卓', img: 'https://www.anyup.cn/static/anyup/images/qr_android.png', tips: '浏览器扫码安装', type: '1', url: 'https://www.pgyer.com/anyup-demo' },
+  { name: '微信公众号', img: 'https://www.anyup.cn/static/anyup/images/qr_wx_public.jpg', tips: '微信扫码', type: '3', url: '' }
+]
+const currentList = computed(() => {
+  return list.filter(item => item.type === props.type)
+})
+</script>
 
 <style scoped>
 .demo-scan-row {
@@ -68,8 +109,9 @@
 }
 
 .demo-scan-item {
+  position: relative;
   text-align: center;
-  border: 1px solid #eaeefb;
+  border: 1px solid #dcdfe6;
   border-radius: 5px;
   transition: bottom 0.4s;
   position: relative;
@@ -78,6 +120,7 @@
   padding: 40px 0;
   min-height: 210px;
   transition: all 0.3s;
+  height: 315px;
 }
 
 .demo-scan-item:hover {
@@ -95,7 +138,6 @@
 .demo-scan-item .demo-scan-name {
   color: #606266;
   font-size: 18px;
-  position: relative;
   margin: 20px 0;
   height: 30px;
 }
@@ -104,12 +146,24 @@
   text-align: center;
   position: absolute;
   font-size: 14px;
-  bottom: -50px;
+  bottom: 30px;
   left: auto;
   width: 100%;
   right: auto;
   color: #909399;
 }
+
+.demo-scan-item .demo-click-tips {
+  text-align: center;
+  position: absolute;
+  font-size: 12px;
+  bottom: 0;
+  left: auto;
+  width: 100%;
+  right: auto;
+  color: #909399;
+}
+
 @media (max-width: 1200px) {
   .demo-scan-col {
     width: 50%;
