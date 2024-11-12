@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "Colorful Design"
+  name: "Colorful   Design"
   text: ""
   tagline: 崇尚大道至简的前端知识库
   # image: https://www.anyup.cn/static/anyup/images/logo2.png
@@ -11,7 +11,7 @@ hero:
     - theme: brand
       text: uni-app工具库
       link: /zh/uniui/guide/introduce
-    - theme: alt
+    - theme: brand
       text: uni-app请求库
       link: /zh/uni-http/guide/introduce
     - theme: brand

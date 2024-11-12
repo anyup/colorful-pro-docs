@@ -2,7 +2,7 @@
   <div class="demo-scan-row">
     <div v-for="(item, index) in currentList" :key="index" class="demo-scan-col">
       <div v-if="item.fullscreen" class="demo-scan-item" :style="{ borderColor: props.borderColor }">
-        <img src="/images/thumb-colorful-app.png" />
+        <img :src="item.img" />
       </div>
       <div v-else class="demo-scan-item" :style="{ borderColor: props.borderColor }">
         <a v-if="item.url" :href="item.url" target="_blank">
@@ -11,53 +11,9 @@
         <img v-else :src="item.img" />
         <div class="demo-scan-name">{{ item.name }}</div>
         <p class="demo-scan-tips">{{ item.tips }}</p>
-        <p v-if="item.url" class="demo-click-tips">(可直接点击图片)</p>
+        <!-- <p v-if="item.url" class="demo-click-tips">(可直接点击图片)</p> -->
       </div>
     </div>
-
-    <!-- <div class="demo-scan-col">
-      <div class="demo-scan-item">
-        <img src="https://www.anyup.cn/static/anyup/images/qr_wx_public.jpg" />
-        <div class="demo-scan-name">
-          微信公众号
-          <p class="demo-scan-tips">微信扫码</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="demo-scan-col">
-      <div class="demo-scan-item">
-        <img src="https://www.anyup.cn/static/anyup/images/qr_wx.png" />
-        <div class="demo-scan-name">
-          微信小程序
-          <p class="demo-scan-tips">微信扫码</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="demo-scan-col">
-      <div class="demo-scan-item">
-        <a href="https://www.anyup.cn/h5model.html" target="_blank">
-          <img src="https://www.anyup.cn/static/anyup/images/qr_h5model.png" />
-        </a>
-        <div class="demo-scan-name">
-          浏览器H5
-          <p class="demo-scan-tips">微信或浏览器扫码</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="demo-scan-col">
-      <div class="demo-scan-item">
-        <a href="https://www.pgyer.com/anyup-demo" target="_blank">
-          <img src="https://www.anyup.cn/static/anyup/images/qr_android.png" />
-        </a>
-        <div class="demo-scan-name">
-          安卓
-          <p class="demo-scan-tips">浏览器扫码安装</p>
-        </div>
-      </div>
-    </div> -->
   </div>
 </template>
 
@@ -76,11 +32,18 @@ const props = defineProps({
 })
 
 const list = [
-  { img: 'https://www.anyup.cn/static/anyup/images/qr_wx.png', type: '1', fullscreen: true },
+  { img: '/site/images/thumb-colorful-app.png', type: '1', fullscreen: true },
   { name: '微信小程序', img: 'https://www.anyup.cn/static/anyup/images/qr_wx.png', tips: '微信扫码', type: '1', url: '' },
   { name: '浏览器 H5', img: 'https://www.anyup.cn/static/anyup/images/qr_h5model.png', tips: '微信或浏览器扫码', type: '1', url: 'https://www.anyup.cn/h5model.html' },
   { name: '安卓', img: 'https://www.anyup.cn/static/anyup/images/qr_android.png', tips: '浏览器扫码安装', type: '1', url: 'https://www.pgyer.com/anyup-demo' },
-  { name: '微信公众号', img: 'https://www.anyup.cn/static/anyup/images/qr_wx_public.jpg', tips: '微信扫码', type: '3', url: '' }
+  { name: '有题记', img: '/site/images/qr_wx_youti.jpg', tips: '微信扫码', type: '2', url: '' },
+  { img: '/site/images/youti1.png', type: '2', fullscreen: true },
+  { img: '/site/images/youti2.png', type: '2', fullscreen: true },
+  { img: '/site/images/youti3.png', type: '2', fullscreen: true },
+  { name: '微信公众号', img: 'https://www.anyup.cn/static/anyup/images/qr_wx_public.jpg', tips: '微信扫码', type: '3', url: '' },
+  { name: '掘金', img: '/site/images/juejin.png', tips: '点击查看关注我', type: '3', url: 'https://juejin.cn/user/4230576472589976/posts' },
+  { name: 'CSDN', img: '/site/images/csdn.png', tips: '点击查看关注我', type: '3', url: 'https://blog.csdn.net/qq_24956515' },
+  { name: '语雀', img: '/site/images/yuque.png', tips: '点击查看关注我', type: '3', url: 'https://www.yuque.com/anyup' }
 ]
 const currentList = computed(() => {
   return list.filter(item => item.type === props.type)

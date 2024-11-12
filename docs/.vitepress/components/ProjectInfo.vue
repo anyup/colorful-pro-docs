@@ -33,14 +33,14 @@
       </el-card>
     </div>
     <div class="card-group yellow">
-      <div class="card-group-title">微信公众号</div>
+      <div class="card-group-title">个人品牌建设</div>
       <el-card shadow="never">
         <template #header>
           <div class="card-header">
             <span>前端梦工厂</span>
           </div>
         </template>
-        <p>简介：前端梦工厂是一个一个汇聚前端梦想和工作的精彩公众号，关注我，让我们一起逐梦前端!</p>
+        <p>简介：前端梦工厂是一个汇聚前端梦想和工作的精彩公众号，同时也是掘金优秀创作者，CSDN 博客专家。关注我，让我们一起逐梦前端！</p>
         <template #footer>
           <DemoScan type="3" border-color="#f8e3c5"></DemoScan>
         </template>
