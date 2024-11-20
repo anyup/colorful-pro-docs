@@ -4,7 +4,35 @@ title: 快速上手
 
 # 快速上手
 
-## main.js 注册
+## 导入组件
+
+::: warning 注意
+
+1. 请确保您的 `pages.json` 中只有一个 `easycom` 字段，否则请自行合并多个引入规则。
+2. 由于组件引入是通过 `easycom` 形式的，写在 `pages.json` 中，以 `au-` 开头，请注意这可能和其他 `UI` 组件冲突
+3. `easycom` 配置的规则优先级比页面引入的组件规则高
+
+:::
+
+使用 `uni_modules` 安装时 `anyup-uniui` 的组件自动支持 `easycom` 规范，无需额外配置就可以自动引入组件，而使用 `npm` 安装 需按照此步骤配置：
+
+```json
+// pages.json
+{
+  "easycom": {
+    "autoscan": true,
+    "custom": {
+      "^au-(.*)": "@anyup/uniui/dist/components/au-$1/au-$1.vue"
+    }
+  },
+  // 页面配置
+  "pages": [
+    // ......
+  ]
+}
+```
+
+## 在 main.js 注册
 
 ```js
 // 项目中最好使用Vuex Store，因为部分功能依赖
@@ -17,7 +45,7 @@ Vue.use(uniUI, { store })
 
 ```scss
 <style lang="scss">
-@import '@anyup/uniui/index.scss';
+@import '@anyup/dist/uniui/index.scss';
 
 page {
   height: 100%;
@@ -26,11 +54,11 @@ page {
 </style>
 ```
 
-## uni.scss 导入主题样式
+## 在 uni.scss 导入主题样式
 
 ```scss
-@import '@anyup/uniui/theme.scss';
-// 主题颜色
+@import '@anyup/uniui/dist/theme.scss';
+// 自定义主题颜色
 $is-type-primary: #2979ff;
 $is-type-primary-light: #ecf5ff;
 $is-type-primary-disabled: #a0cfff;
@@ -64,66 +92,17 @@ $is-border-color: #e4e7ed;
 $is-bg-color: #f3f4f6;
 $is-form-item-border-color: #dcdfe6;
 $is-form-item-height: 70rpx;
-
 ```
 
-## 全局引用
+如果你使用了 `uView` 组件库，可以更简单些，直接导入 `uView` 主题样式即可：
 
-- 通过 npm 和下载方式的配置之后，在某个页面可以直接使用组件，无需通过 import 引入组件。
-- easycom 配置
-
-```js
-"^au-(.*)": "@anyup/uniui/components/au-$1/au-$1.vue"
+```scss
+@import 'uview-ui/theme.scss';
+// 自定义了部分uview-ui主题颜色
+$u-type-primary: #004ea2;
+$u-type-primary-light: #ecf5ff;
+$u-type-primary-disabled: #a0cfff;
+$u-type-primary-dark: #2b85e4;
+// 必须在导入 uview-ui 之后，继承 uview-ui 的主题变量
+@import '@anyup/uniui/dist/u.theme.scss';
 ```
-
-```html
-<template>
-  <au-layout :page-show="pageShow" :bg-color="bgColor" loading-text="加载中">
-    <slot></slot>
-  </au-layout>
-</template>
-
-<script>
-  export default {
-    data() {
-      return {
-        bgColor: "#ffffff",
-        pageShow: true,
-      };
-    },
-  };
-</script>
-```
-
-## 单独引用 `不建议`
-
-```html
-<template>
-  <au-layout :page-show="pageShow" :bg-color="bgColor" loading-text="加载中">
-    <slot></slot>
-  </au-layout>
-</template>
-
-<script>
-  import auLayout from "@anyup/uniui/components/au-layout/au-layout.vue";
-  export default {
-    components: {
-      auLayout,
-    },
-    data() {
-      return {
-        bgColor: "#ffffff",
-        pageShow: true,
-      };
-    },
-  };
-</script>
-```
-
-- 通过 npm 和下载方式的配置之后，在某个页面可以直接使用组件，无需通过 import 引入组件。
-
-::: warning 注意
-
-1. 由于组件引入是通过 easycom 形式的，写在 pages.json 中，以 au-开头，这可能和其他 UI 组件冲突
-2. easycom 配置的规则优先级比页面引入的组件规则高
-   :::

@@ -18,6 +18,6 @@ title: 开发工具
   * 前端开发利器，轻量级，渐进式开发工具
   * 优秀的扩展工具，飞一般的代码体验
 
-### 3. [anyup-uniui-snippet](https://vscode.en.softonic.com/)
-  * uniui vscode代码提示snippet
+### 3. [anyup-uniui-snippet](https://marketplace.visualstudio.com/items?itemName=anyup.anyup-uniui-snippet)
+  * anyup uniui vscode代码提示snippet
 

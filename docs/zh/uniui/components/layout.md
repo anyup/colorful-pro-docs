@@ -45,14 +45,14 @@ export default {
 ## API
 ### Props
 | 名称 | 说明 | 类型 | 默认值 | 可选值 |
-| :--: | :--: | :--: | :--: | :--: | :--: |
+| :--: | :--: | :--: | :--: | :--: |
 | page-show | 是否显示页面 | Boolean |  true  | false  | 
-| bg-color | 背景色值 | String |  #ffffff  | -  | 
+| bg-color | 背景色值 | String |  #ffffff  | - | 
 | height | 页面高度 | String |  -  | 100%  |
 | padding | 内边距 | String |  0  | 10rpx | 
 | loading-text | loading文案 | String |  -  | 加载中  | 
 | loading | 是否显示loading | Boolean |  false  | true  | 
-| toast | toast配置 | Object |  { title: '操作成功', icon: 'none', content: '' }  | - | 
+| toast | toast配置 | Object |  `{ title: '操作成功', icon: 'none', content: '' }`  | - | 
 | toast-duration | toast持续时间 | Number |  2000  | -  | 
 | toast-position | toast位置 |  String |  center  | top/bottom  | 
 
