@@ -312,63 +312,7 @@ class Menu<T> {
     ]
   }
 
-  // 4.uni-colorful 文档
-  sidebarUniColorful(): DefaultTheme.SidebarItem[] {
-    return [
-      {
-        text: 'uni-app 工具库',
-        base: `/${this.locale}/uni-colorful/`,
-        items: [
-          {
-            text: '指南',
-            collapsed: false,
-            items: [
-              { text: '介绍', link: 'guide/introduce' },
-              { text: '安装', link: 'guide/install' },
-              { text: '快速上手', link: 'guide/quickstart' },
-              { text: '目录结构', link: 'guide/directory' },
-              { text: '开发工具', link: 'guide/devtools' },
-              { text: '注意事项', link: 'guide/feature' },
-              { text: '更新日志', link: 'guide/changelog' }
-            ]
-          },
-          {
-            text: '组件',
-            collapsed: false,
-            items: [
-              { text: 'Layout - 布局', link: 'components/layout' },
-              { text: 'Button - 按钮', link: 'components/button' },
-              { text: 'Loader - 加载图标', link: 'components/loader' },
-              { text: 'Loading - 加载框', link: 'components/loading' },
-              { text: 'Table - 表格', link: 'components/table' },
-              { text: 'Toast - 提示', link: 'components/toast' },
-              { text: 'WebView - 网页视图', link: 'components/webview' },
-              { text: 'Updater - 应用更新管理', link: 'components/updater' },
-              { text: 'Apis - 服务器选择', link: 'components/apis' }
-            ]
-          },
-          {
-            text: '工具',
-            collapsed: false,
-            items: [
-              { text: 'Checker - 表单校验', link: 'js/checker' },
-              { text: 'Http - 网络请求', link: 'js/http' },
-              { text: 'Optimize - 优化类', link: 'js/optimize' },
-              { text: 'Pager - 分页', link: 'js/pager' },
-              { text: 'Push - 推送', link: 'js/push' },
-              { text: 'Plus - 真机类', link: 'js/plus' },
-              { text: 'Store - 状态管理', link: 'js/store' },
-              { text: 'Tips - 提示', link: 'js/tips' }
-            ]
-          }
-        ]
-      },
-      { text: 'github', link: 'https://github.com/anyup/uni-colorful' },
-      { text: 'gitee', link: 'https://gitee.com/anyup/uni-colorful' }
-    ]
-  }
-
-  // 5.flyit 文档
+  // 4.flyit 文档
   sidebarFlyit(): DefaultTheme.SidebarItem[] {
     return [
       {

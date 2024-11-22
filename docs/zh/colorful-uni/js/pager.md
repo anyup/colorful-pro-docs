@@ -51,7 +51,7 @@ pageClass: demo-preview
 </template>
 
 <script>
-import { Pager } from '@anyup/uni-colorful'
+import { Pager } from 'colorful-uni'
 
 export default {
   data() {

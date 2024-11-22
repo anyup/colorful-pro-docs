@@ -1,7 +1,7 @@
 {
   "name": "colorful-pro-docs",
   "version": "1.0.0",
-  "description": "uni-colorful 官方文档",
+  "description": "Colorful App 官方文档",
   "main": "index.js",
   "scripts": {
     "docs:dev": "vitepress dev docs --port 8888",
