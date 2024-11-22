@@ -21,17 +21,17 @@ class Menu<T> {
     return [
       { text: '首页', link: '/' },
       {
-        text: 'JS 相关库',
-        activeMatch: `/${this.locale}/fly`,
-        items: [{ text: 'flyit 工具库', link: `/${this.locale}/flyit/guide/introduce`, activeMatch: `/${this.locale}/flyit/` }]
-      },
-      {
         text: 'uni-app 相关库',
         activeMatch: `/${this.locale}/uni`,
         items: [
           { text: 'uniui 工具库', link: `/${this.locale}/uniui/guide/introduce`, activeMatch: `/${this.locale}/uniui/` },
           { text: 'uni-http 请求库', link: `/${this.locale}/uni-http/guide/introduce`, activeMatch: `/${this.locale}/uni-http/` }
         ]
+      },
+      {
+        text: 'JS 相关库',
+        activeMatch: `/${this.locale}/fly`,
+        items: [{ text: 'flyit 工具库', link: `/${this.locale}/flyit/guide/introduce`, activeMatch: `/${this.locale}/flyit/` }]
       },
       {
         text: '博客园',
