@@ -10,7 +10,7 @@ hero:
   actions:
     - theme: brand
       text: uni-app工具库
-      link: /zh/uniui/guide/introduce
+      link: /zh/colorful-uni/guide/introduce
     - theme: brand
       text: uni-app请求库
       link: /zh/uni-http/guide/introduce

@@ -24,8 +24,8 @@ class Menu<T> {
         text: 'uni-app 相关库',
         activeMatch: `/${this.locale}/uni`,
         items: [
-          { text: 'uniui 工具库', link: `/${this.locale}/uniui/guide/introduce`, activeMatch: `/${this.locale}/uniui/` },
-          { text: 'uni-http 请求库', link: `/${this.locale}/uni-http/guide/introduce`, activeMatch: `/${this.locale}/uni-http/` }
+          { text: 'uni-app 快速开发库', link: `/${this.locale}/colorful-uni/guide/introduce`, activeMatch: `/${this.locale}/colorful-uni/` },
+          { text: 'uni-app 请求库', link: `/${this.locale}/uni-http/guide/introduce`, activeMatch: `/${this.locale}/uni-http/` }
         ]
       },
       {
@@ -53,9 +53,8 @@ class Menu<T> {
   sidebar(): DefaultTheme.Sidebar {
     return {
       '/zh/blog/': { base: '/zh/blog/', items: this.sidebarBlog() },
-      '/zh/uniui/': { base: '', items: this.sidebarUniUI() },
+      '/zh/colorful-uni/': { base: '', items: this.sidebarColorfulUni() },
       '/zh/uni-http/': { base: '', items: this.sidebarUniHttp() },
-      '/zh/uni-colorful/': { base: '', items: this.sidebarUniColorful() },
       '/zh/flyit/': { base: '', items: this.sidebarFlyit() }
     }
   }
@@ -231,12 +230,12 @@ class Menu<T> {
     ])
   }
 
-  // 2.uniui 文档
-  sidebarUniUI(): DefaultTheme.SidebarItem[] {
+  // 2.colorful-uni 文档
+  sidebarColorfulUni(): DefaultTheme.SidebarItem[] {
     return [
       {
-        text: 'uni-app 工具库',
-        base: `/${this.locale}/uniui/`,
+        text: 'uni-app 快速开发库',
+        base: `/${this.locale}/colorful-uni/`,
         items: [
           {
             text: '指南',
@@ -282,8 +281,8 @@ class Menu<T> {
           }
         ]
       },
-      { text: 'github', link: 'https://github.com/anyup/uniui' },
-      { text: 'gitee', link: 'https://gitee.com/anyup/uniui' }
+      { text: 'github', link: 'https://github.com/anyup/colorful-uni' },
+      { text: 'gitee', link: 'https://gitee.com/anyup/colorful-uni' }
     ]
   }
 
