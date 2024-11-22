@@ -25,7 +25,8 @@ class Menu<T> {
         activeMatch: `/${this.locale}/uni`,
         items: [
           { text: 'uni-app 快速开发库', link: `/${this.locale}/colorful-uni/guide/introduce`, activeMatch: `/${this.locale}/colorful-uni/` },
-          { text: 'uni-app 请求库', link: `/${this.locale}/uni-http/guide/introduce`, activeMatch: `/${this.locale}/uni-http/` }
+          { text: 'uni-app 请求库', link: `/${this.locale}/uni-http/guide/introduce`, activeMatch: `/${this.locale}/uni-http/` },
+          { text: '脚手架工具', link: `/${this.locale}/template/create-uni/index`, activeMatch: `/${this.locale}/template/` }
         ]
       },
       {
@@ -44,7 +45,7 @@ class Menu<T> {
           { text: 'CSS样式表', link: `/${this.locale}/blog/css/`, activeMatch: `/${this.locale}/blog/css/` },
           { text: 'Vue开发', link: `/${this.locale}/blog/vuejs2/`, activeMatch: `/${this.locale}/blog/vuejs2/` },
           { text: '开发工具', link: `/${this.locale}/blog/tools/`, activeMatch: `/${this.locale}/blog/tools/` },
-          { text: '可视化大屏', link: `/${this.locale}/blog/large-screen/`, activeMatch: `/${this.locale}/blog/large-screen/` },
+          { text: '可视化大屏', link: `/${this.locale}/blog/large-screen/`, activeMatch: `/${this.locale}/blog/large-screen/` }
         ]
       }
     ]
@@ -55,7 +56,8 @@ class Menu<T> {
       '/zh/blog/': { base: '/zh/blog/', items: this.sidebarBlog() },
       '/zh/colorful-uni/': { base: '', items: this.sidebarColorfulUni() },
       '/zh/uni-http/': { base: '', items: this.sidebarUniHttp() },
-      '/zh/flyit/': { base: '', items: this.sidebarFlyit() }
+      '/zh/flyit/': { base: '', items: this.sidebarFlyit() },
+      '/zh/template/': { base: '', items: this.sidebarTemplate() }
     }
   }
   // 1.博客菜单
@@ -334,6 +336,11 @@ class Menu<T> {
       { text: 'github', link: 'https://github.com/anyup/flyit' },
       { text: 'gitee', link: 'https://gitee.com/anyup/flyit' }
     ]
+  }
+
+  // 5.脚手架 文档
+  sidebarTemplate(): DefaultTheme.SidebarItem[] {
+    return [{ text: '', base: `/${this.locale}/template/`, link: 'create-uni/index' }]
   }
 }
 

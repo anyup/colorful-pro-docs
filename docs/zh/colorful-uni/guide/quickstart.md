@@ -106,3 +106,9 @@ $u-type-primary-dark: #2b85e4;
 // 必须在导入 uview-ui 之后，继承 uview-ui 的主题变量
 @import 'colorful-uni/u.theme.scss';
 ```
+
+## 使用脚手架
+
+Colorful Uni 支持使用 `create-colorful-app` CLI 脚手架快速创建项目
+
+详细查看文档：[使用 Colorful Uni Cli 快速创建 uni-app 模板](/zh/template/create-uni/)
