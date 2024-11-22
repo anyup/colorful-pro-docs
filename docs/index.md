@@ -9,7 +9,7 @@ hero:
   # image: https://www.anyup.cn/static/anyup/images/logo2.png
   actions:
     - theme: brand
-      text: uni-app工具库
+      text: uni-app快速开发库
       link: /zh/colorful-uni/guide/introduce
     - theme: brand
       text: uni-app请求库
