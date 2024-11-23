@@ -22,7 +22,7 @@ export const zh = defineConfig({
 
     footer: {
       message: '备案许可：<a style="color:#4e6e8e;" rel="noopener noreferrer" target="_blank" href="https://beian.miit.gov.cn/">鲁ICP备2021040594号-1</a>',
-      copyright: `Copyright © 2020 - ${new Date().getFullYear()} <a target="_blank" href="https://github.com/anyup"> anyup design </a>`
+      copyright: `Copyright © 2020 - ${new Date().getFullYear()} <a target="_blank" href="https://github.com/anyup"> Colorful Design </a>`
     },
 
     docFooter: {
