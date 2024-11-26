@@ -20,7 +20,7 @@ pageClass: demo-preview
 
 ```html
 <template>
-	<au-loader mode="circle"></au-loader>
+	<col-loader mode="circle"></col-loader>
 </template>
 ```
 

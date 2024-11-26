@@ -20,17 +20,17 @@ pageClass: demo-preview
     </form>
     <view class="is-mgtb-20 is-flex">
       <view class="is-flex-1">
-        <au-button type="default" @click="reset">重置</au-button>
+        <col-button type="default" @click="reset">重置</col-button>
       </view>
       <view style="width: 100rpx"></view>
       <view class="is-flex-1">
-        <au-button type="primary" @click="submit">提交</au-button>
+        <col-button type="primary" @click="submit">提交</col-button>
       </view>
     </view>
   </view>
 </template>
 <script>
-  import { checker } from "colorful-uni";
+  import { checker } from 'colorful-uni';
   export default {
     data() {
       return {
@@ -69,10 +69,10 @@ pageClass: demo-preview
         ];
         let checkRes = checker.validation(this.form, rules);
         if (checkRes) {
-          this.$tips.toast(checkRes, "info");
+          this.$_u.tips.toast(checkRes, "info");
           return;
         }
-        this.$tips.toast("校验成功", "success");
+        this.$_u.tips.toast("校验成功", "success");
       },
     },
   };

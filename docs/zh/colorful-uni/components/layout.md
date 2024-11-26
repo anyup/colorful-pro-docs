@@ -20,14 +20,14 @@ pageClass: demo-preview
 
 ```html
 <template>
-  <au-layout
+  <col-layout
     :page-show="true"
     :bg-color="#ffffff"
     :custom-style="customStyle"
     loading-text="加载中"
   >
     页面
-  </au-layout>
+  </col-layout>
 </template>
 <script>
 export default {
@@ -68,7 +68,7 @@ export default {
 
 ```html
 <template>
-  <au-layout
+  <col-layout
     :page-show="pageShow"
     :bg-color="bgColor"
     :custom-style="customStyle"
@@ -76,10 +76,10 @@ export default {
   >
     <slot></slot>
     <!-- 如果是App需要版本更新 -->
-    <au-updater :auto="autoUpdate" :request="request" :is-force="isForce" @result="onUpdate" />
+    <col-updater :auto="autoUpdate" :request="request" :is-force="isForce" @result="onUpdate" />
     <view v-if="loadmore" class="is-pd-10"> <u-loadmore :status="loadmore" /> </view>
     <view v-if="empty" class="is-pdtb-50"> <u-empty v-if="empty" /> </view>
-  </au-layout>
+  </col-layout>
 </template>
 
 <script>

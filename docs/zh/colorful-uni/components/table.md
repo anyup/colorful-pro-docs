@@ -20,20 +20,20 @@ pageClass: demo-preview
 
 ```html
 <template>
-	<au-table padding="10rpx">
-      <au-tr fixed>
-        <au-th>姓名</au-th>
-        <au-th>性别</au-th>
-        <au-th :sort="sort" @click="onSort">年龄</au-th>
-        <au-th>居住地</au-th>
-      </au-tr>
-      <au-tr v-for="(value, key) in 3" :key="key">
-        <au-td>张三</au-td>
-        <au-td>男</au-td>
-        <au-td>18</au-td>
-        <au-td>北京</au-td>
-      </au-tr>
-    </au-table>
+	<col-table padding="10rpx">
+      <col-tr fixed>
+        <col-th>姓名</col-th>
+        <col-th>性别</col-th>
+        <col-th :sort="sort" @click="onSort">年龄</col-th>
+        <col-th>居住地</col-th>
+      </col-tr>
+      <col-tr v-for="(value, key) in 3" :key="key">
+        <col-td>张三</col-td>
+        <col-td>男</col-td>
+        <col-td>18</col-td>
+        <col-td>北京</col-td>
+      </col-tr>
+    </col-table>
 </template>
 <script>
 export default {

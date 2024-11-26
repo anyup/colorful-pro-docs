@@ -21,7 +21,7 @@ pageClass: demo-preview
 
 ```html
 <template>
-  <au-button type="primary" size="medium" palin>按钮</au-button>
+  <col-button type="primary" size="medium" palin>按钮</col-button>
 </template>
 ```
 
@@ -39,10 +39,10 @@ $is-type-gold-dark: #cea973;
 **2.组件生效，依据项目UI可以以此单独封装Button**
 ```html
 <template>
-  <au-button :custom-types="['gold']" type="gold">自定义按钮</au-button>
+  <col-button :custom-types="['gold']" type="gold">自定义按钮</col-button>
 </template>
 <style lang="scss">
-@import 'colorful-uni/css/mixin.scss';
+@import 'colorful-uni/dist/css/mixin.scss';
 
   $type: gold;
   $color: #ffffff;

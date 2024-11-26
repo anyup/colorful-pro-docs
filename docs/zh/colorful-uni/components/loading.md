@@ -20,7 +20,7 @@ pageClass: demo-preview
 
 ```html
 <template>
-	<au-loading :show="true"></au-loading>
+	<col-loading :show="true"></col-loading>
 </template>
 ```
 ## API

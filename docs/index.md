@@ -9,16 +9,19 @@ hero:
   # image: https://www.anyup.cn/static/anyup/images/logo2.png
   actions:
     - theme: brand
-      text: uni-app快速开发库
+      text: 🚀 uni-app快速开发库
       link: /zh/colorful-uni/guide/introduce
     - theme: brand
-      text: uni-app请求库
+      text: 🚀 uni-app请求库
       link: /zh/uni-http/guide/introduce
     - theme: brand
-      text: flyit工具库
+      text: 🎯 flyit工具库
       link: /zh/flyit/guide/introduce
-    - theme: alt
-      text: 我的博客
+    - theme: brand
+      text: 💪 脚手架工具
+      link: /zh/template/create-uni/
+    - theme: brand
+      text: 📖 我的博客
       link: /zh/blog/
   image:
     src: /images/vitepress-logo-large.png

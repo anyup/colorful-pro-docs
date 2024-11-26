@@ -26,13 +26,17 @@ class Menu<T> {
         items: [
           { text: 'uni-app 快速开发库', link: `/${this.locale}/colorful-uni/guide/introduce`, activeMatch: `/${this.locale}/colorful-uni/` },
           { text: 'uni-app 请求库', link: `/${this.locale}/uni-http/guide/introduce`, activeMatch: `/${this.locale}/uni-http/` },
-          { text: '脚手架工具', link: `/${this.locale}/template/create-uni/index`, activeMatch: `/${this.locale}/template/` }
         ]
       },
       {
         text: 'JS 相关库',
         activeMatch: `/${this.locale}/fly`,
         items: [{ text: 'flyit 工具库', link: `/${this.locale}/flyit/guide/introduce`, activeMatch: `/${this.locale}/flyit/` }]
+      },
+      {
+        text: '脚手架工具',
+        activeMatch: `/${this.locale}/template/create-uni/`,
+        link: `/${this.locale}/template/create-uni/`
       },
       {
         text: '博客园',

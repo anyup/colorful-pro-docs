@@ -21,7 +21,7 @@ pageClass: demo-preview
 
 ```html
 <template>
-	<au-toast :toast="toast"></au-toast>
+	<col-toast :toast="toast"></col-toast>
 </template>
 ```
 

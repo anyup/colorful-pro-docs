@@ -12,6 +12,6 @@ title: 注意事项
 :::
 
 使用Vuex
-使用au-layout包裹组件
+使用col-layout包裹组件
 使用uview
 使用Store快速工具

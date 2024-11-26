@@ -24,7 +24,7 @@ webview 是一个 web 浏览器组件，可以用来承载网页的容器，会�
 
 ```html
 <template>
-	<au-webview :src="src" />
+	<col-webview :src="src" />
 </template>
 <script>
 export default {

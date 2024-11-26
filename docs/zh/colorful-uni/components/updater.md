@@ -20,7 +20,7 @@ pageClass: demo-preview
 
 ```html
 <template>
-	<au-updater 
+	<col-updater 
     ref="updater" 
     :auto="true" 
     :request="request" 

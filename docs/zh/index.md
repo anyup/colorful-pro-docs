@@ -17,7 +17,10 @@ hero:
     - theme: brand
       text: flyit工具库
       link: /zh/flyit/guide/introduce
-    - theme: alt
+    - theme: brand
+      text: 脚手架工具
+      link: /zh/template/create-uni/
+    - theme: brand
       text: 我的博客
       link: /zh/blog/
   image:

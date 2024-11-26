@@ -41,7 +41,7 @@ export default new Vuex.Store({
 ```
 ### 默认状态
 ::: warning 
-- 使用本Store，会默认集成了部分状态，不可删除，如下
+- 使用本Store，会默认集成了部分状态，命名空间为'base'，不可删除，如下
 - 如果需要拓展，可按照规范进行追加
 :::
 | 名称 | 类型 | 说明 |
@@ -49,20 +49,21 @@ export default new Vuex.Store({
 | user | Object | 一般作为存储用户数据，持久化存储 |
 | token | Object | 用户token，持久化存储 |
 | bundle | Object | 页面携带信息 |
-| loading | Boolean | 加载框是否显示 |
+| loading | Object | 加载框显示信息 |
 | toast | Object | toast显示信息 |
 ### 如何获取状态
 1. useStore自动获取声明的state并生成了getters，使用mixin全局混入到页面中，可直接获取使用
-2. 为避免声明重复，所有的getters会自动追加g_，所以获取的时候须注意，如下示例
+2. 为避免声明重复，所有的getters会自动追加getter_，所以获取的时候须注意，如下示例
 
 ```html
 <template>
-  <view></view>
-    <view>{{ g_user }}</view>
-    <view>{{ g_token }}</view>
-    <view>{{ g_bundle }}</view>
-    <view>{{ g_loading }}</view>
-    <view>{{ g_toast }}</view>
+  <view>
+    <view>{{ getter_base }}</view>
+    <view>{{ getter_base.user }}</view>
+    <view>{{ getter_base.token }}</view>
+    <view>{{ getter_base.bundel }}</view>
+    <view>{{ getter_base.loading }}</view>
+    <view>{{ getter_base.toast }}</view>
   </view>
 </template>
 <script>
@@ -88,11 +89,18 @@ Vue.use(Vuex)
 
 const store = new Store()
 
-// userinfo为持久化存储
+/**
+ * @demo new StoreModule(state, keys, namespace)
+ * @param {*} state 初始状态，例如：{ userInfo: store.getStorage('userInfo', {}, 'user'), token: '' }
+ * @param {*} keys 为需要持久化存储的字段，例如：['token']
+ * @param {*} namespace 命名空间，例如：'user'
+ */
 const modules = {
   user: new StoreModule(
-    { userinfo: store.getStorage('userinfo', {}), nickname: '' },
-    ['userinfo']),
+    { userinfo: store.getStorage('userinfo', {}, 'user'), token: '' },
+    ['userinfo'],
+    'user'
+  ),
 }
 
 export default new Vuex.Store({
@@ -101,4 +109,24 @@ export default new Vuex.Store({
 })
 </script>
 
+```
+
+#### 获取新声明的状态
+
+以上声明的Vuex模块的命名空间为`user`，获取方式如下：
+
+```html
+<template>
+  <view>
+    <view>{{ getter_user }}</view>
+    <view>{{ getter_user.userinfo }}</view>
+  </view>
+</template>
+<script>
+  export default {
+    data() {
+      return {}
+    }
+  }
+</script>
 ```

@@ -40,14 +40,14 @@ pageClass: demo-preview
 
 ```html
 <template>
-  <au-layout>
+  <col-layout>
     <u-empty v-if="pager.empty()" />
 	  <view v-else>
 		  <view v-for="item in page.data" :key="item.id">{{ item.name }}</view>
 	  </view>
     <!-- 底部显示加载状态 -->
     <u-loadmore :status="pager.loadmore()" />
-  </au-layout>
+  </col-layout>
 </template>
 
 <script>

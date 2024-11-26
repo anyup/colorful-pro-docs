@@ -20,7 +20,7 @@ pageClass: demo-preview
 
 ```html
 <template>
-  <au-apis :list="apiList" @select="setServer" />
+  <col-apis :list="apiList" @select="setServer" />
 </template>
 <script>
 const apiList = [
