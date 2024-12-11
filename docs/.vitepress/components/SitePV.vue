@@ -11,8 +11,8 @@ import { onMounted } from 'vue'
 
 const offset = {
   sitePV: 10000,
-  siteUV: 5000,
-  pagePV: 2000
+  siteUV: 6000,
+  pagePV: 3000
 }
 const setValue = (id: string, offset: number) => {
   // 获取页面元素
