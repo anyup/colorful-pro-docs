@@ -18,7 +18,7 @@
         </template>
       </el-card>
     </div>
-    <div class="card-group green">
+    <div class="card-group blue">
       <div class="card-group-title">软考题库</div>
       <el-card shadow="never">
         <template #header>
@@ -28,11 +28,11 @@
         </template>
         <p>简介：有题记小程序是我个人独立开发的一款 PMP 和软考刷题小程序，目前完全免费，致力于做最好用的考试刷题小程序。技术栈为：uni-app + uniCloud</p>
         <template #footer>
-          <DemoScan type="2" border-color="#d2edc4"></DemoScan>
+          <DemoScan type="2" border-color="#c6e2ff"></DemoScan>
         </template>
       </el-card>
     </div>
-    <div class="card-group yellow">
+    <div class="card-group blue">
       <div class="card-group-title">个人品牌建设</div>
       <el-card shadow="never">
         <template #header>
@@ -42,7 +42,7 @@
         </template>
         <p>简介：前端梦工厂是一个汇聚前端梦想和工作的精彩公众号，同时也是掘金优秀创作者，CSDN 博客专家。关注我，让我们一起逐梦前端！</p>
         <template #footer>
-          <DemoScan type="3" border-color="#f8e3c5"></DemoScan>
+          <DemoScan type="3" border-color="#c6e2ff"></DemoScan>
         </template>
       </el-card>
     </div>
@@ -66,6 +66,14 @@ import DemoScan from './DemoScan.vue'
   margin: 20px 0;
   color: #606060;
   line-height: 30px;
+}
+
+.gray .card-group-title {
+  color: #666666 !important;
+}
+
+.gray .card-group-title::after {
+  background-color: #666666 !important;
 }
 
 .blue .card-group-title {
@@ -105,6 +113,11 @@ import DemoScan from './DemoScan.vue'
 
 .project-info p {
   font-size: 14px;
+}
+
+.gray .el-card {
+  --el-card-border-color: #e6e6e6;
+  background-color: #f6f6f6;
 }
 
 .blue .el-card {
