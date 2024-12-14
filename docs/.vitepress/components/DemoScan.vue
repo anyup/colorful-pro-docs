@@ -32,18 +32,18 @@ const props = defineProps({
 })
 
 const list = [
-  { img: './images/thumb-colorful-app.png', type: '1', fullscreen: true },
-  { name: '微信小程序', img: 'https://www.anyup.cn/static/anyup/images/qr_wx.png', tips: '微信扫码', type: '1', url: '' },
-  { name: '浏览器 H5', img: 'https://www.anyup.cn/static/anyup/images/qr_h5model.png', tips: '微信或浏览器扫码', type: '1', url: 'https://www.anyup.cn/h5model.html' },
-  { name: '安卓', img: 'https://www.anyup.cn/static/anyup/images/qr_android.png', tips: '浏览器扫码安装', type: '1', url: 'https://www.pgyer.com/anyup-demo' },
-  { name: '有题记', img: './images/qr_wx_youti.jpg', tips: '微信扫码', type: '2', url: '' },
-  { img: './images/youti1.png', type: '2', fullscreen: true },
-  { img: './images/youti2.png', type: '2', fullscreen: true },
-  { img: './images/youti3.png', type: '2', fullscreen: true },
-  { name: '微信公众号', img: 'https://www.anyup.cn/static/anyup/images/qr_wx_public.jpg', tips: '微信扫码', type: '3', url: '' },
-  { name: '掘金', img: './images/juejin.png', tips: '点击查看关注我', type: '3', url: 'https://juejin.cn/user/4230576472589976/posts' },
-  { name: 'CSDN', img: './images/csdn.png', tips: '点击查看关注我', type: '3', url: 'https://blog.csdn.net/qq_24956515' },
-  { name: '语雀', img: './images/yuque.png', tips: '点击查看关注我', type: '3', url: 'https://www.yuque.com/anyup' }
+  { img: 'https://mp-24dc6d34-bed2-467a-9aad-c7c838f24ce7.cdn.bspapp.com/cloudstorage/anyup/thumb-colorful-app.png', type: '1', fullscreen: true },
+  { name: '微信小程序', img: 'https://mp-24dc6d34-bed2-467a-9aad-c7c838f24ce7.cdn.bspapp.com/cloudstorage/anyup/qr_wx_colorful.jpg', tips: '微信扫码', type: '1', url: '' },
+  { name: '浏览器 H5', img: 'https://mp-24dc6d34-bed2-467a-9aad-c7c838f24ce7.cdn.bspapp.com/cloudstorage/anyup/qr_h5model.png', tips: '微信或浏览器扫码', type: '1', url: 'https://www.anyup.cn/h5model.html' },
+  { name: '安卓', img: 'https://mp-24dc6d34-bed2-467a-9aad-c7c838f24ce7.cdn.bspapp.com/cloudstorage/anyup/qr_android.png', tips: '浏览器扫码安装', type: '1', url: 'https://www.pgyer.com/anyup-demo' },
+  { name: '有题记', img: 'https://mp-24dc6d34-bed2-467a-9aad-c7c838f24ce7.cdn.bspapp.com/cloudstorage/anyup/qr_wx_youti.jpg', tips: '微信扫码', type: '2', url: '' },
+  { img: 'https://mp-24dc6d34-bed2-467a-9aad-c7c838f24ce7.cdn.bspapp.com/cloudstorage/anyup/youti1.png', type: '2', fullscreen: true },
+  { img: 'https://mp-24dc6d34-bed2-467a-9aad-c7c838f24ce7.cdn.bspapp.com/cloudstorage/anyup/youti2.png', type: '2', fullscreen: true },
+  { img: 'https://mp-24dc6d34-bed2-467a-9aad-c7c838f24ce7.cdn.bspapp.com/cloudstorage/anyup/youti3.png', type: '2', fullscreen: true },
+  { name: '微信公众号', img: 'https://mp-24dc6d34-bed2-467a-9aad-c7c838f24ce7.cdn.bspapp.com/cloudstorage/anyup/qr_wx_public.jpg', tips: '微信扫码', type: '3', url: '' },
+  { name: '掘金', img: 'https://mp-24dc6d34-bed2-467a-9aad-c7c838f24ce7.cdn.bspapp.com/cloudstorage/anyup/juejin.png', tips: '点击查看关注我', type: '3', url: 'https://juejin.cn/user/4230576472589976/posts' },
+  { name: 'CSDN', img: 'https://mp-24dc6d34-bed2-467a-9aad-c7c838f24ce7.cdn.bspapp.com/cloudstorage/anyup/csdn.png', tips: '点击查看关注我', type: '3', url: 'https://blog.csdn.net/qq_24956515' },
+  { name: '语雀', img: 'https://mp-24dc6d34-bed2-467a-9aad-c7c838f24ce7.cdn.bspapp.com/cloudstorage/anyup/yuque.png', tips: '点击查看关注我', type: '3', url: 'https://www.yuque.com/anyup' }
 ]
 const currentList = computed(() => {
   return list.filter(item => item.type === props.type)

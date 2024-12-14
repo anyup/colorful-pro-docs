@@ -6,7 +6,7 @@ hero:
   name: "Colorful   Design"
   text: ""
   tagline: 崇尚大道至简的前端知识库
-  # image: https://www.anyup.cn/static/anyup/images/logo2.png
+  # image: https://mp-24dc6d34-bed2-467a-9aad-c7c838f24ce7.cdn.bspapp.com/cloudstorage/anyup/logo2.png
   actions:
     - theme: brand
       text: 🚀 uni-app快速开发库
@@ -24,7 +24,7 @@ hero:
       text: 📖 我的博客
       link: /zh/blog/
   image:
-    src: /images/vitepress-logo-large.png
+    src: https://mp-24dc6d34-bed2-467a-9aad-c7c838f24ce7.cdn.bspapp.com/cloudstorage/anyup/vitepress-logo-large.png
     alt: VitePress
 
 features:

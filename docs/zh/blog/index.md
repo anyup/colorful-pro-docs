@@ -24,7 +24,7 @@ title: 简介
 
 <p><CustomIcon name="weixinpublic" size="22px" color="#00b066" /> 微信公众号｜ 
     <el-popover placement="top-start" title="扫码关注：前端梦工厂" :width="200" trigger="hover">
-        <img src="https://www.anyup.cn/static/anyup/images/qr_wx_public.jpg" alt="" srcset="" />
+        <img src="https://mp-24dc6d34-bed2-467a-9aad-c7c838f24ce7.cdn.bspapp.com/cloudstorage/anyup/qr_wx_public.jpg" alt="" srcset="" />
         <template #reference>
             <a href="javascript:;">前端梦工厂 ></a>
         </template>
@@ -33,7 +33,7 @@ title: 简介
 
 <!-- ![image.png](https://cdn.nlark.com/yuque/0/2024/png/756043/1711511212734-584243f5-cdef-4f0d-8758-392b2b743b87.png?x-oss-process=image%2Fformat%2Cwebp) -->
 
-<!-- ![image.png](https://www.anyup.cn/static/anyup/images/qr_personal_wx_group.png) -->
+<!-- ![image.png](https://mp-24dc6d34-bed2-467a-9aad-c7c838f24ce7.cdn.bspapp.com/cloudstorage/anyup/qr_personal_wx_group.png) -->
 
 ## 关于项目
 
@@ -64,7 +64,7 @@ title: 简介
 <p>
 关注公众号 “<strong>前端梦工厂</strong>” 发送关键字 “<strong>有题记</strong>” 获取，或扫码获取
     <el-popover placement="top-start" title="扫码关注：前端梦工厂" :width="200" trigger="click">
-        <img src="https://www.anyup.cn/static/anyup/images/qr_wx_public.jpg" alt="" srcset="" />
+        <img src="https://mp-24dc6d34-bed2-467a-9aad-c7c838f24ce7.cdn.bspapp.com/cloudstorage/anyup/qr_wx_public.jpg" alt="" srcset="" />
         <template #reference>
             <a href="javascript:;">(点击扫码)</a>
         </template>

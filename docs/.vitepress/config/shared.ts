@@ -29,7 +29,7 @@ export const shared = defineConfig({
 
   /* prettier-ignore */
   head: [
-    ['link', { rel: 'icon', type: 'image/png', href: 'https://www.anyup.cn/static/anyup/images/logo-heart-transparent.png' }],
+    ['link', { rel: 'icon', type: 'image/png', href: 'https://mp-24dc6d34-bed2-467a-9aad-c7c838f24ce7.cdn.bspapp.com/cloudstorage/anyup/logo-heart-transparent.png' }],
     ['link', { rel: 'stylesheet', href: '//at.alicdn.com/t/c/font_4522599_t4534k2ng8.css' }],
     ['meta', { name: 'theme-color', content: '#5f67ee' }],
     ['meta', { name: 'referrer', content: 'no-referrer' }],
@@ -38,7 +38,7 @@ export const shared = defineConfig({
     ['meta', { property: 'og:locale', content: 'zh' }],
     ['meta', { property: 'og:title', content: 'Colorful Design | Vite & Vue Powered Static Site Generator' }],
     ['meta', { property: 'og:site_name', content: 'Colorful Design' }],
-    ['meta', { property: 'og:image', content: 'https://www.anyup.cn/static/anyup/images/vitepress-og.png' }],
+    ['meta', { property: 'og:image', content: 'https://mp-24dc6d34-bed2-467a-9aad-c7c838f24ce7.cdn.bspapp.com/cloudstorage/anyup/vitepress-og.png' }],
     ['meta', { property: 'og:url', content: 'https://www.anyup.cn' }],
     ['script', { src: 'https://cdn.usefathom.com/script.js', 'data-site': 'AZBRSFGG', 'data-spa': 'auto', defer: '' }],
     // 不蒜子网站统计 https://busuanzi.ibruce.info/
@@ -62,7 +62,7 @@ export const shared = defineConfig({
   ],
 
   themeConfig: {
-    logo: { src: 'https://www.anyup.cn/static/anyup/images/logo1.png', width: 65, height: 24 },
+    logo: { src: 'https://mp-24dc6d34-bed2-467a-9aad-c7c838f24ce7.cdn.bspapp.com/cloudstorage/anyup/logo1.png', width: 65, height: 24 },
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/anyup' },
