@@ -41,3 +41,4 @@ unpackage/cache
 fly.js
 .VSCodeCounter
 cache/
+demo/*
