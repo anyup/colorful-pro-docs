@@ -4,9 +4,9 @@
   "description": "Colorful App 官方文档",
   "main": "index.js",
   "scripts": {
-    "dev": "vitepress dev docs --port 8888",
-    "build": "vitepress build docs",
-    "preview": "vitepress preview docs",
+    "docs:dev": "vitepress dev docs --port 8888",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs",
     "menu:generate": "node getFiles.js"
   },
   "devDependencies": {
