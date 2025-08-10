@@ -1,16 +1,36 @@
 <template>
   <div class="project-info">
     <div class="card-group blue">
-      <div class="card-group-title primary">开源项目</div>
+      <div class="card-group-title primary">开源项目 uView Pro</div>
       <el-card shadow="never">
         <template #header>
           <div class="card-header">
-            <span>uni-app 快速开发工具库</span>
+            <span>uni-app Vue3 快速开发工具库</span>
           </div>
         </template>
         <p>
-          简介：基于 uni-app 的一个快速开发工具库，UI 组件基于 uView。uView 已经非常优秀，本着不重复造轮子、快速高效开发 App
-          的原则，同时基于项目开发最佳实践，不断优化迭代。使用该工具库可以高效、快速的进行多平台开发 App、H5、微信小程序等。
+          简介：uView Pro，是全面支持 Vue3.0、TypeScript 的 uni-app
+          生态框架，uView Pro 的基线版本是基于 uView 1.8.8 修改，使用 TypeScript
+          完全重构，目前已全面支持 uni-app Vue3.0。
+        </p>
+        <template #footer>
+          <DemoScan type="0" border-color="#c6e2ff"></DemoScan>
+        </template>
+      </el-card>
+    </div>
+    <div class="card-group blue">
+      <div class="card-group-title primary">开源项目 Colorful Uni</div>
+      <el-card shadow="never">
+        <template #header>
+          <div class="card-header">
+            <span>uni-app Vue2 快速开发工具库</span>
+          </div>
+        </template>
+        <p>
+          简介：基于 uni-app 的一个快速开发工具库，UI 组件基于 uView。uView
+          已经非常优秀，本着不重复造轮子、快速高效开发 App
+          的原则，同时基于项目开发最佳实践，不断优化迭代。使用该工具库可以高效、快速的进行多平台开发
+          App、H5、微信小程序等。
           这套工具库的初衷是面向实际开发项目，打造一个好用、快速开发、最佳实践的高标准工具库。
         </p>
         <template #footer>
@@ -26,7 +46,11 @@
             <span>有题记</span>
           </div>
         </template>
-        <p>简介：有题记小程序是我个人独立开发的一款 PMP 和软考刷题小程序，目前完全免费，致力于做最好用的考试刷题小程序。技术栈为：uni-app + uniCloud</p>
+        <p>
+          简介：有题记小程序是我个人独立开发的一款 PMP
+          和软考刷题小程序，目前完全免费，致力于做最好用的考试刷题小程序。技术栈为：uni-app
+          + uniCloud
+        </p>
         <template #footer>
           <DemoScan type="2" border-color="#c6e2ff"></DemoScan>
         </template>
@@ -40,7 +64,10 @@
             <span>前端梦工厂</span>
           </div>
         </template>
-        <p>简介：前端梦工厂是一个汇聚前端梦想和工作的精彩公众号，同时也是掘金优秀创作者，CSDN 博客专家。关注我，让我们一起逐梦前端！</p>
+        <p>
+          简介：前端梦工厂是一个汇聚前端梦想和工作的精彩公众号，同时也是掘金优秀创作者，CSDN
+          博客专家。关注我，让我们一起逐梦前端！
+        </p>
         <template #footer>
           <DemoScan type="3" border-color="#c6e2ff"></DemoScan>
         </template>

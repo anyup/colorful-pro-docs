@@ -8,7 +8,7 @@
       <p>
         📱 微信 | anyupxing
         <el-popover placement="top-start" title="扫码添加：anyupxing" :width="200" trigger="hover">
-          <img src="https://mp-24dc6d34-bed2-467a-9aad-c7c838f24ce7.cdn.bspapp.com/cloudstorage/anyup/qr_personal_wx.png" alt="" srcset="" />
+          <img src="/anyup/images/qr_personal_wx.png" alt="" srcset="" />
           <template #reference>
             <span class="cursor follow-us">加我为好友，共同交流进步！</span>
           </template>
@@ -17,7 +17,7 @@
       <p class="cursor">
         🏆 公众号｜ 前端梦工厂
         <el-popover placement="top-start" title="扫码关注：前端梦工厂" :width="200" trigger="hover">
-          <img src="https://mp-24dc6d34-bed2-467a-9aad-c7c838f24ce7.cdn.bspapp.com/cloudstorage/anyup/qr_wx_public.jpg" alt="" srcset="" />
+          <img src="/anyup/images/qr_wx_public.jpg" alt="" srcset="" />
           <template #reference>
             <span class="cursor follow-us">关注公众号，让我们一起逐梦前端！</span>
           </template>

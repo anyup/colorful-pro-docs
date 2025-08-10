@@ -1,6 +1,6 @@
 <template>
   <div class="demo-preview-wrap">
-    <img src="https://mp-24dc6d34-bed2-467a-9aad-c7c838f24ce7.cdn.bspapp.com/cloudstorage/anyup/iphone.png" />
+    <img src="/anyup/images/iphone.png" />
     <span class="demo-time">{{ currentTime() }}</span>
     <iframe scrolling="auto" frameborder="0" :src="`${baseUrl}${url}`" />
   </div>
@@ -14,7 +14,7 @@ const props = defineProps({
   },
   baseUrl: {
     type: String,
-    default: 'https://www.anyup.cn/h5/#/'
+    default: 'https://h5-colorful-uni.netlify.app/#/'
   }
 })
 
