@@ -6,17 +6,20 @@ hero:
   name: "Colorful   Design"
   text: ""
   tagline: 崇尚大道至简的前端知识库
-  # image: https://mp-24dc6d34-bed2-467a-9aad-c7c838f24ce7.cdn.bspapp.com/cloudstorage/anyup/logo2.png
+  # image: /anyup/images/logo2.png
   actions:
     - theme: brand
-      text: 🚀 uni-app快速开发库
+      text: 🚀 uView Pro Vue3 组件库
+      link: https://uview-pro.netlify.app/
+    - theme: brand
+      text: 🚀 uni-app Vue2 开源库
       link: /zh/colorful-uni/guide/introduce
     - theme: brand
       text: 🚀 uni-app请求库
       link: /zh/uni-http/guide/introduce
-    - theme: brand
-      text: 🎯 flyit工具库
-      link: /zh/flyit/guide/introduce
+    # - theme: brand
+    #   text: 🎯 flyit工具库
+    #   link: /zh/flyit/guide/introduce
     - theme: brand
       text: 💪 脚手架工具
       link: /zh/template/create-uni/
@@ -24,7 +27,7 @@ hero:
       text: 📖 我的博客
       link: /zh/blog/
   image:
-    src: https://mp-24dc6d34-bed2-467a-9aad-c7c838f24ce7.cdn.bspapp.com/cloudstorage/anyup/vitepress-logo-large.png
+    src: /anyup/images/vitepress-logo-large.png
     alt: VitePress
 
 features:

@@ -1,6 +1,6 @@
 
 <p align="center">
-    <img alt="logo" src="https://mp-24dc6d34-bed2-467a-9aad-c7c838f24ce7.cdn.bspapp.com/cloudstorage/anyup/logo-heart-transparent.png" width="120" style="margin-bottom: 10px;">
+    <img alt="logo" src="/anyup/images/logo-heart-transparent.png" width="120" style="margin-bottom: 10px;">
 </p>
 
 <h1 align="center">Colorful UniApp CLI</h1>

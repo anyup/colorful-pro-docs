@@ -29,9 +29,9 @@ title: 介绍
 
 <table class="table">
     <tr>
-        <td><img src="https://mp-24dc6d34-bed2-467a-9aad-c7c838f24ce7.cdn.bspapp.com/cloudstorage/anyup/qr_wx_colorful.jpg" width="200" height="200" ></td>
-	    <td><img src="https://mp-24dc6d34-bed2-467a-9aad-c7c838f24ce7.cdn.bspapp.com/cloudstorage/anyup/qr_h5.png" width="200" height="200" ></td>
-	    <td><img src="https://mp-24dc6d34-bed2-467a-9aad-c7c838f24ce7.cdn.bspapp.com/cloudstorage/anyup/qr_android.png" width="200" height="200" ></td>
+        <td><img src="/anyup/images/qr_wx_colorful.jpg" width="200" height="200" ></td>
+	    <td><img src="/anyup/images/qr_h5.png" width="200" height="200" ></td>
+	    <td><img src="/anyup/images/qr_android.png" width="200" height="200" ></td>
     </tr>
     <tr>
         <td align="center">示例小程序</td>
@@ -68,8 +68,8 @@ title: 介绍
 
 <table class="table">
     <tr>
-        <td><img src="https://mp-24dc6d34-bed2-467a-9aad-c7c838f24ce7.cdn.bspapp.com/cloudstorage/anyup/qr_wx_colorful.jpg" width="200" height="200" ></td>
-	    <td><img src="https://mp-24dc6d34-bed2-467a-9aad-c7c838f24ce7.cdn.bspapp.com/cloudstorage/anyup/qr_wx_youti.jpg" width="200" height="200" ></td>
+        <td><img src="/anyup/images/qr_wx_colorful.jpg" width="200" height="200" ></td>
+	    <td><img src="/anyup/images/qr_wx_youti.jpg" width="200" height="200" ></td>
     </tr>
     <tr>
         <td align="center">示例小程序</td>
